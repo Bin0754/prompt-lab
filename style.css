@@ -31,3 +31,12 @@ pre{background:#0b0b0f;border:1px solid var(--line);border-radius:12px;padding:1
 .toast{position:fixed;left:50%;bottom:30px;transform:translate(-50%,20px);opacity:0;background:#fff;color:#111;padding:10px 18px;border-radius:99px;transition:.3s;pointer-events:none;z-index:9}
 .toast.on{opacity:1;transform:translate(-50%,0)}.foot{color:var(--mut);font-size:13px;padding-bottom:40px}
 @media(max-width:600px){.hero{padding-top:36px}.dbody{padding:18px}.grid{grid-template-columns:1fr}td:first-child{white-space:normal}}
+
+.mbadge{position:absolute;top:10px;left:10px;padding:2px 10px;border-radius:99px;font-size:12px;font-weight:700;color:#fff;background:var(--mc,#6b6b7b);box-shadow:0 2px 8px #0006}
+.badge.num{left:auto;right:10px;bottom:10px;top:auto}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
+.chip{background:var(--card);color:var(--fg);border:1px solid var(--line);border-radius:99px;padding:6px 14px;font-size:14px;cursor:pointer}
+.chip i{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--mc);margin-right:6px}
+.chip.on{background:var(--fg);color:#111;border-color:var(--fg)}
+.empty{text-align:center;color:var(--mut);padding:60px 0 80px}
+.info{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0 0}.info span{font-size:13px;background:#ffffff0f;border-radius:8px;padding:2px 10px}

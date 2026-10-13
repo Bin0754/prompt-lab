@@ -1,15 +1,17 @@
 #!/usr/bin/env bash
 # Add a new day to Prompt Lab and push.
-# Usage: ./publish.sh <YYYY-MM-DD> <templates.md> <img01> <img02> ... <img10>
+# Usage: ./publish.sh [--model Grok] [--ratio 16:9] <YYYY-MM-DD> <templates.md> <img01> <img02> ... <img10>
 #   or:  ./publish.sh <YYYY-MM-DD>   (if data/<date>.json and images/<date>/ already exist)
 set -euo pipefail
 cd "$(dirname "$0")"
+MODEL=Grok; RATIO=""
+while [[ "${1:-}" == --* ]]; do case "$1" in --model) MODEL="$2";; --ratio) RATIO="$2";; *) echo "unknown $1"; exit 1;; esac; shift 2; done
 DATE="$1"; shift
 [[ "$DATE" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]] || { echo "bad date"; exit 1; }
 git pull -q --rebase || true
 if [ $# -ge 1 ]; then
   MD="$1"; shift
-  python3 scripts/md2json.py "$MD" "$DATE"
+  python3 scripts/md2json.py "$MD" "$DATE" --model "$MODEL" ${RATIO:+--ratio "$RATIO"}
   mkdir -p "images/$DATE"; i=1
   for f in "$@"; do
     python3 -c "import sys;from PIL import Image;im=Image.open(sys.argv[1]).convert('RGB');w,h=im.size

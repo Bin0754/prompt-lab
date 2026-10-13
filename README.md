@@ -14,15 +14,17 @@ scripts/md2json.py         # 模板 Markdown → JSON
 publish.sh                 # 一键添加新的一天并推送
 ```
 
-每条 entry：`id, name, photoRef(★), tagline, scenarios[], variables[{name,desc,example}], template, example, image`。
+每条 entry：`id, name, photoRef(★), tagline, scenarios[], variables[{name,desc,example}], template, example, image, model`，可选 `ratio`（比例）、`genDate`（出图日期）。
+
+`model` 取值：`Grok` / `GPT-Image` / `Midjourney`（颜色在 `app.js` 的 `MODELS` 中定义，新增模型在此加一行即可；未登记的模型显示为灰色，并自动出现在筛选栏）。
 
 ## 新增一天
 
 **方式 A（从 Markdown + 图片）：**
 ```bash
-./publish.sh 2026-10-14 /path/prompt_templates_10.md img1.jpg img2.jpg ... img10.jpg
+./publish.sh --model Grok [--ratio 16:9] 2026-10-14 /path/prompt_templates_10.md img1.jpg img2.jpg ... img10.jpg
 ```
-Markdown 需沿用现有格式（`### 模板 N｜★ 名称`、`**一句话卖点**：`、`**适用场景**：`、变量表、```代码块```正文、`**示例**：`）。图片按顺序对应模板 1–10，自动压缩为 ≤1600px 宽 JPG。
+Markdown 需沿用现有格式（`### 模板 N｜★ 名称`、`**一句话卖点**：`、`**适用场景**：`、变量表、```代码块```正文、`**示例**：`）。`--model` 默认 `Grok`（单张不同模型可事后在 JSON 中修改）。图片按顺序对应模板 1–10，自动压缩为 ≤1600px 宽 JPG。
 
 **方式 B（手动）：** 放入 `data/2026-10-14.json` 和 `images/2026-10-14/01..10.jpg`，然后运行 `./publish.sh 2026-10-14`（会更新 `data/index.json`、提交并推送）。
 
