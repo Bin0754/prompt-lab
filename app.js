@@ -1,7 +1,7 @@
 const $=s=>document.querySelector(s);const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 let day=null,filt='全部';
 const MODELS={'Grok':'#e5484d','GPT':'#10a37f','Nano Banana':'#f5b700'};
-const mc=m=>MODELS[m]||'#6b6b7b';const mod=e=>e.model||'未知';
+const DARK_TEXT=['Nano Banana'];const tc=m=>DARK_TEXT.includes(m)?'#1a1a1a':'#fff';const mc=m=>MODELS[m]||'#6b6b7b';const mod=e=>e.model||'未知';
 const toast=m=>{const t=$('#toast');t.textContent=m;t.classList.add('on');setTimeout(()=>t.classList.remove('on'),1600)};
 async function copy(text){try{await navigator.clipboard.writeText(text)}catch{const a=document.createElement('textarea');a.value=text;document.body.appendChild(a);a.select();document.execCommand('copy');a.remove()}toast('已复制到剪贴板 ✓')}
 function fill(e){const m={};(e.example.match(/\{[^}]+\}=[^，]+/g)||[]).forEach(p=>{const i=p.indexOf('=');m[p.slice(0,i)]=p.slice(i+1).replace(/[。"“”]/g,'').trim()});return e.template.replace(/\{[^}]+\}/g,k=>m[k]||k)}
@@ -16,7 +16,7 @@ function render(){
   $('#chips').innerHTML=['全部',...ms].map(m=>`<button class="chip${m===filt?' on':''}" data-m="${esc(m)}">${m==='全部'?'':`<i style="--mc:${mc(m)}"></i>`}${esc(m)}</button>`).join('');
   const list=day.entries.map((e,i)=>[e,i]).filter(([e])=>filt==='全部'||mod(e)===filt);
   $('#empty').hidden=list.length>0;
-  $('#grid').innerHTML=list.map(([e,i])=>`<button class="card" data-i="${i}"><div class="thumb"><img loading="lazy" src="${esc(e.image)}" alt="${esc(e.name)}"><span class="mbadge" style="--mc:${mc(mod(e))}">${esc(mod(e))}</span><span class="badge num">#${e.id}</span>${e.photoRef?'<span class="badge star">★ 可传照片</span>':''}</div>
+  $('#grid').innerHTML=list.map(([e,i])=>`<button class="card" data-i="${i}"><div class="thumb"><img loading="lazy" src="${esc(e.image)}" alt="${esc(e.name)}"><span class="mbadge" style="--mc:${mc(mod(e))};--tc:${tc(mod(e))}">${esc(mod(e))}</span><span class="badge num">#${e.id}</span>${e.photoRef?'<span class="badge star">★ 可传照片</span>':''}</div>
   <div class="body"><h3>${esc(e.name)}</h3><p>${esc(e.tagline)}</p><div class="tags">${(e.scenarios||[]).slice(0,4).map(s=>`<span class="tag">${esc(s)}</span>`).join('')}</div></div></button>`).join('');
 }
 $('#chips').onclick=ev=>{const c=ev.target.closest('.chip');if(c){filt=c.dataset.m;render()}};
