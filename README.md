@@ -16,7 +16,7 @@ publish.sh                 # 一键添加新的一天并推送
 
 每条 entry：`id, name, photoRef(★), tagline, scenarios[], variables[{name,desc,example}], template, example, image, model`，可选 `ratio`（比例）、`genDate`（出图日期）。
 
-`model` 取值：`Grok` / `GPT-Image` / `Midjourney`（颜色在 `app.js` 的 `MODELS` 中定义，新增模型在此加一行即可；未登记的模型显示为灰色，并自动出现在筛选栏）。
+`model` 取值：`Grok` / `GPT` / `Nano Banana`（颜色在 `app.js` 的 `MODELS` 中定义，新增模型在此加一行即可；未登记的模型显示为灰色，并自动出现在筛选栏）。
 
 ## 新增一天
 

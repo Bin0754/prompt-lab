@@ -1,6 +1,6 @@
 const $=s=>document.querySelector(s);const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 let day=null,filt='全部';
-const MODELS={'Grok':'#e5484d','GPT-Image':'#10a37f','Midjourney':'#6e56cf'};
+const MODELS={'Grok':'#e5484d','GPT':'#10a37f','Nano Banana':'#f5b700'};
 const mc=m=>MODELS[m]||'#6b6b7b';const mod=e=>e.model||'未知';
 const toast=m=>{const t=$('#toast');t.textContent=m;t.classList.add('on');setTimeout(()=>t.classList.remove('on'),1600)};
 async function copy(text){try{await navigator.clipboard.writeText(text)}catch{const a=document.createElement('textarea');a.value=text;document.body.appendChild(a);a.select();document.execCommand('copy');a.remove()}toast('已复制到剪贴板 ✓')}
