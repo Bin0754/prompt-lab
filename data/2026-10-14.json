@@ -1,0 +1,396 @@
+{
+  "date": "2026-10-14",
+  "source": "https://youmind.com/zh-CN/gpt-image-2-5-prompts",
+  "entries": [
+    {
+      "id": "01",
+      "name": "等距像素蒸汽城市明信片",
+      "photoRef": false,
+      "tagline": "把任何城市变成可收藏的 16-bit 等距像素蒸汽朋克明信片。",
+      "scenarios": [
+        "旅行周边",
+        "游戏概念图",
+        "小红书封面",
+        "桌面壁纸"
+      ],
+      "variables": [
+        {
+          "name": "{城市主题}",
+          "desc": "城市或地标气质",
+          "example": "雾都伦敦桥 / 赛博重庆洪崖洞 / 运河威尼斯"
+        },
+        {
+          "name": "{标志建筑}",
+          "desc": "画面中心建筑",
+          "example": "齿轮大钟楼 / 霓虹吊脚楼集群 / 蒸汽贡多拉码头"
+        },
+        {
+          "name": "{主色调}",
+          "desc": "像素调色板主色",
+          "example": "铜绿+煤气灯橙 / 品红霓虹+深青 / 琥珀黄+烟灰"
+        },
+        {
+          "name": "{天气}",
+          "desc": "氛围天气",
+          "example": "低悬蒸汽雾 / 细雨反光路面 / 黄昏火山灰霞"
+        }
+      ],
+      "template": "Isometric 16-bit pixel-art city postcard, 1:1 square, clean collectible illustration.\nSubject: a miniature isometric block of {城市主题}, centered on {标志建筑}, with tiny pixel pedestrians, tram rails, and chimney steam plumes.\nStyle: classic SNES-era pixel art, crisp 2px outlines, limited palette, no anti-alias blur; rooftops and streets read clearly at thumbnail size.\nPalette & mood: {主色调}, weather is {天气}, soft dithering for shadows, gentle bloom only on lamps.\nComposition: 30–40° isometric view, city block floating on a soft paper-margin background with a thin postage-stamp border and a small blank caption strip at the bottom for a title.\nDetails: visible brick/metal pixel textures, tiny shop signs as abstract color blocks (no readable logos), birds as 2–3 pixel shapes.\nAvoid: photorealism, 3D render look, modern UI chrome, watermarks, real brand logos, illegible dense text.",
+      "example": "{城市主题}=赛博重庆洪崖洞，{标志建筑}=霓虹吊脚楼集群与过江缆车，{主色调}=品红霓虹+深青，{天气}=低悬蒸汽雾。",
+      "image": "images/2026-10-14/01.jpg",
+      "model": "Grok",
+      "genDate": "2026-10-14"
+    },
+    {
+      "id": "02",
+      "name": "水下奢侈品气泡静物",
+      "photoRef": false,
+      "tagline": "把产品沉入清澈海水，拍出广告级气泡与焦散光斑。",
+      "scenarios": [
+        "美妆/香氛广告",
+        "电商主图",
+        "品牌视觉",
+        "杂志内页"
+      ],
+      "variables": [
+        {
+          "name": "{产品}",
+          "desc": "虚构产品描述",
+          "example": "磨砂玻璃海盐香水瓶 / 珍珠白气垫盒 / 深蓝陶瓷护肤罐"
+        },
+        {
+          "name": "{主色}",
+          "desc": "产品主色",
+          "example": "鼠尾草绿 / 香槟金 / 深海蓝"
+        },
+        {
+          "name": "{配景}",
+          "desc": "水下点缀物",
+          "example": "小簇珊瑚与珍珠 / 漂浮柠檬片 / 半透明海草"
+        },
+        {
+          "name": "{光线}",
+          "desc": "水面光感",
+          "example": "正午焦散波纹 / 侧逆光丁达尔光束 / 柔和阴天散射"
+        }
+      ],
+      "template": "Underwater luxury product still life, 4:5 vertical, commercial beauty photography.\nHero object: {产品} in {主色}, suspended mid-water with a slow tilt, sharp label area kept blank (no real logos).\nEnvironment: crystal-clear turquoise water, rising pearl-like bubbles of mixed sizes, {配景} softly out of focus in the background, sandy bokeh floor far below.\nLighting: {光线} creating caustic light patterns across the product surface; high-end refractive highlights on glass/metal.\nCamera: 85mm equivalent, shallow depth of field, product occupying the central 40%, luxurious negative space above for headline.\nGrade: clean editorial, cool cyan shadows, warm speculars, ultra-detailed micro-droplets, no fish, no divers, no text.\nAvoid: murky water, plastic CGI look, distorted proportions, watermarks, readable brand names.",
+      "example": "{产品}=磨砂玻璃海盐香水瓶配亚麻绳吊坠，{主色}=鼠尾草绿，{配景}=小簇粉白珊瑚与散落珍珠，{光线}=正午焦散波纹。",
+      "image": "images/2026-10-14/02.jpg",
+      "model": "Grok",
+      "genDate": "2026-10-14"
+    },
+    {
+      "id": "03",
+      "name": "黏土定格厨房小剧场",
+      "photoRef": false,
+      "tagline": "黏土人偶在微型厨房里上演温馨定格动画瞬间。",
+      "scenarios": [
+        "品牌故事插画",
+        "儿童向内容",
+        "表情包衍生",
+        "短视频封面"
+      ],
+      "variables": [
+        {
+          "name": "{角色}",
+          "desc": "黏土角色设定",
+          "example": "戴厨师帽的圆脸橘猫 / 穿围裙的小蘑菇精灵 / 短腿柯基面包师"
+        },
+        {
+          "name": "{动作}",
+          "desc": "正在做的事",
+          "example": "用力揉面团 / 小心吹灭生日蜡烛 / 端着冒热气的汤碗"
+        },
+        {
+          "name": "{厨房色}",
+          "desc": "场景主色",
+          "example": "奶油黄+薄荷绿 / 莫兰迪粉+木色 / 深蓝瓷砖+暖橙"
+        },
+        {
+          "name": "{情绪}",
+          "desc": "表情氛围",
+          "example": "专注认真 / 开心得眯眼 / 略带慌张却可爱"
+        }
+      ],
+      "template": "Claymation stop-motion still, 4:5 vertical, handmade miniature kitchen theatre.\nCharacters: {角色} sculpted from matte polymer clay with visible fingerprint texture and soft seam lines, expression {情绪}, pose mid-action: {动作}.\nSet: a dollhouse kitchen in {厨房色}, tiny clay utensils, uneven handmade tiles, a window with painted cardboard trees outside.\nCraft look: practical miniature lighting from a warm practical lamp, slight motion blur on moving hands only, shallow focus, dust motes in the air.\nAesthetic: Aardman-like charm, cozy storytelling, no uncanny human faces — keep characters stylized and cute.\nAvoid: photoreal skin, CGI perfection, horror vibes, logos, watermarks, readable packaging text.",
+      "example": "{角色}=戴厨师帽的圆脸橘猫，{动作}=用力揉一大团面粉扑扑的面团，{厨房色}=奶油黄+薄荷绿，{情绪}=专注认真。",
+      "image": "images/2026-10-14/03.jpg",
+      "model": "Grok",
+      "genDate": "2026-10-14"
+    },
+    {
+      "id": "04",
+      "name": "赛博机甲潮玩拆盒照",
+      "photoRef": false,
+      "tagline": "电商级潮玩开箱图：机甲玩具立在泡沫托盘里超有质感。",
+      "scenarios": [
+        "潮玩电商主图",
+        "IP 衍生",
+        "收藏展示",
+        "众筹页头图"
+      ],
+      "variables": [
+        {
+          "name": "{机甲名}",
+          "desc": "虚构机甲设定",
+          "example": "霓虹螳螂刺客 / 沙漠甲虫重装 / 极光兔耳侦察兵"
+        },
+        {
+          "name": "{配色}",
+          "desc": "涂装配色",
+          "example": "电光紫+枪金属 / 沙黄+军绿哑光 / 白壳+冰蓝灯线"
+        },
+        {
+          "name": "{配件}",
+          "desc": "附件",
+          "example": "可拆能量刃与透明支架 / 折叠盾与弹药箱 / 无人机小伴与缆线"
+        },
+        {
+          "name": "{包装色}",
+          "desc": "盒内托盘色",
+          "example": "石墨黑蜂窝泡沫 / 象牙白纸浆模塑 / 荧光粉海绵"
+        }
+      ],
+      "template": "Collectible mecha designer-toy unboxing photo, 1:1 square, premium e-commerce hero shot.\nSubject: a 1/12-scale articulated mecha figure \"{机甲名}\" painted in {配色}, standing in an open collector box nestled in {包装色}, accessories {配件} laid neatly beside it.\nMaterials: convincing ABS/PVC plastic panels, subtle panel-line weathering, LED-like glowing joints (practical look), soft studio reflections.\nLighting: clean softbox key from upper left, gentle rim light separating the figure from the tray, crisp commercial sharpness.\nComposition: top-three-quarter angle, box lid partially visible with blank title area (no real IP logos), negative space for price tag overlay.\nAvoid: real brand logos (Bandai/Hot Toys etc.), bloody/violent gore, photoreal human pilots, watermarks.",
+      "example": "{机甲名}=霓虹螳螂刺客，{配色}=电光紫+枪金属，{配件}=可拆能量刃与透明支架，{包装色}=石墨黑蜂窝泡沫。",
+      "image": "images/2026-10-14/04.jpg",
+      "model": "Grok",
+      "genDate": "2026-10-14"
+    },
+    {
+      "id": "05",
+      "name": "窗台慢生活静物摄影",
+      "photoRef": false,
+      "tagline": "一束窗光、一杯热饮，拍出可感温度的慢生活静物。",
+      "scenarios": [
+        "生活方式种草",
+        "咖啡馆海报",
+        "家居品牌",
+        "日签配图"
+      ],
+      "variables": [
+        {
+          "name": "{主角物}",
+          "desc": "静物主体",
+          "example": "冒热气的陶杯拿铁 / 翻开的亚麻封面笔记本 / 一小瓶干花与信笺"
+        },
+        {
+          "name": "{织物}",
+          "desc": "窗台织物",
+          "example": "亚麻浅驼桌布 / 针织奶油毯一角 / 水洗蓝牛仔布"
+        },
+        {
+          "name": "{窗外}",
+          "desc": "窗外景致",
+          "example": "模糊绿植与晨雾 / 细雨城市屋檐 / 金色夕阳树影"
+        },
+        {
+          "name": "{季节感}",
+          "desc": "季节道具",
+          "example": "一颗无花果 / 干橙片与肉桂 / 小雏菊一枝"
+        }
+      ],
+      "template": "Quiet windowsill still-life photography, 3:4 vertical, lifestyle editorial.\nArrangement: {主角物} placed on {织物} along a sunlit windowsill, accompanied by {季节感}; a thin curtain softens the light.\nBackground: {窗外} rendered as creamy bokeh beyond the glass, subtle condensation or dust on the pane for realism.\nLight: late-morning side light, long soft shadows, gentle steam or fabric texture catching speculars.\nMood: slow living, warm restraint, tactile materials (ceramic, linen, paper), natural imperfections welcome.\nGrade: muted filmic tones, low contrast, true-to-material colors, no people, no logos, no text overlays.\nAvoid: cluttered product dumps, harsh flash, HDR, watermarks.",
+      "example": "{主角物}=冒热气的陶杯拿铁，{织物}=亚麻浅驼桌布，{窗外}=模糊绿植与晨雾，{季节感}=一颗切开的无花果。",
+      "image": "images/2026-10-14/05.jpg",
+      "model": "Grok",
+      "genDate": "2026-10-14"
+    },
+    {
+      "id": "06",
+      "name": "水墨数字国潮角色立绘",
+      "photoRef": false,
+      "tagline": "当代数字水墨画出可做头像的国潮角色卡。",
+      "scenarios": [
+        "头像",
+        "国潮服饰宣传",
+        "游戏立绘",
+        "节日壁纸"
+      ],
+      "variables": [
+        {
+          "name": "{角色}",
+          "desc": "虚构角色",
+          "example": "持油纸伞的青衣少年 / 披霞光鹤氅的女侠 / 怀抱古琴的白发书生"
+        },
+        {
+          "name": "{墨色重点}",
+          "desc": "墨与彩的重点",
+          "example": "靛青衣袂泼墨 / 朱砂点梅与金箔 / 留白远山淡赭"
+        },
+        {
+          "name": "{动作}",
+          "desc": "姿态",
+          "example": "侧身回眸 / 衣袂迎风而立 / 坐于石阶抚琴"
+        },
+        {
+          "name": "{题跋区}",
+          "desc": "留白用途",
+          "example": "右上竖排空白题跋区 / 左下印章位留白 / 顶部横幅留白"
+        }
+      ],
+      "template": "Digital ink guochao character illustration, 9:16 vertical, contemporary Chinese ink-wash meets clean graphic design.\nCharacter: {角色}, {动作}, stylized (not a real celebrity), elegant proportions, expressive eyes, detailed costume folds.\nInk language: expressive brush splashes and flying white (飞白), {墨色重点}, controlled color accents on otherwise monochrome ink.\nComposition: tall portrait with generous negative space — {题跋区} kept empty for calligraphy overlay; soft rice-paper texture background.\nFinish: high-resolution digital painting that still feels handmade, subtle mineral pigment grain, no photoreal skin pores.\nAvoid: anime chibi exaggeration, Western fantasy armor clash, cluttered backgrounds, readable fake Chinese characters that look broken, watermarks.",
+      "example": "{角色}=持油纸伞的青衣少年，{墨色重点}=靛青衣袂泼墨与一抹朱砂伞缘，{动作}=侧身回眸，{题跋区}=右上竖排空白题跋区。",
+      "image": "images/2026-10-14/06.jpg",
+      "model": "Grok",
+      "genDate": "2026-10-14"
+    },
+    {
+      "id": "07",
+      "name": "极简家具展厅空间海报",
+      "photoRef": false,
+      "tagline": "建筑师级极简展厅一角，让家具成为雕塑。",
+      "scenarios": [
+        "家居品牌海报",
+        "设计周主视觉",
+        "电商场景图",
+        "建筑作品集"
+      ],
+      "variables": [
+        {
+          "name": "{家具}",
+          "desc": "主角家具",
+          "example": "低矮橡木茶几+亚麻沙发 / 悬臂钢架读书椅 / 弧形水磨石餐桌"
+        },
+        {
+          "name": "{材质}",
+          "desc": "空间材质",
+          "example": "微水泥墙+栎木地板 / 白色石膏+石灰石 / 亚光黑钢+水磨石"
+        },
+        {
+          "name": "{单点绿植}",
+          "desc": "唯一植物",
+          "example": "一株高大鹤望兰 / 一小盆枯山水苔石 / 一枝插瓶银芽柳"
+        },
+        {
+          "name": "{光线}",
+          "desc": "建筑光",
+          "example": "北向天光均匀洒落 / 窄缝侧光切出光带 / 黄昏暖光铺地"
+        }
+      ],
+      "template": "Minimal furniture showroom architectural poster, 4:5 vertical, museum-quiet interior photography.\nHero: {家具} placed as a sculptural centerpiece in a spacious gallery bay finished in {材质}, with {单点绿植} as the only organic accent.\nLight: {光线}, soft shadow gradients, no harsh flash; floor reflections subtle and clean.\nComposition: wide breathing room, furniture on the lower third, large empty wall field above for a typographic title later; perfectly straight verticals.\nAesthetic: Japanese-Scandinavian restraint, tactile close detail on grain and fabric weave, color palette limited to three tones.\nAvoid: cluttered accessories, visible brand labels, people, lens distortion, watermarks, busy patterns.",
+      "example": "{家具}=低矮橡木茶几与亚麻三人沙发，{材质}=微水泥墙+栎木地板，{单点绿植}=一株高大鹤望兰，{光线}=窄缝侧光切出光带。",
+      "image": "images/2026-10-14/07.jpg",
+      "model": "Grok",
+      "genDate": "2026-10-14"
+    },
+    {
+      "id": "08",
+      "name": "插画绘本角色收集卡",
+      "photoRef": false,
+      "tagline": "一张就能出周边的绘本风角色收集卡。",
+      "scenarios": [
+        "角色设定",
+        "盲盒宣传",
+        "儿童绘本衍生",
+        "贴纸素材"
+      ],
+      "variables": [
+        {
+          "name": "{角色名}",
+          "desc": "虚构角色名",
+          "example": "云朵邮差米拉 / 蘑菇图书馆员咚咚 / 星夜灯塔守望者阿梨"
+        },
+        {
+          "name": "{外形}",
+          "desc": "外观描述",
+          "example": "圆脸女孩戴飞鸽邮差帽背小邮包 / 戴圆眼镜的小狐狸围织围巾 / 穿条纹毛衣的少年提马灯"
+        },
+        {
+          "name": "{标志道具}",
+          "desc": "标志物",
+          "example": "会发光的信封 / 一本比身体还大的精装书 / 玻璃瓶里的迷你银河"
+        },
+        {
+          "name": "{底色}",
+          "desc": "卡片底色",
+          "example": "雾霾蓝水彩 / 暖杏纸质 / 暮紫渐变夜空"
+        }
+      ],
+      "template": "Storybook character collector card illustration, 3:4 vertical, soft gouache + colored-pencil children's book style.\nCharacter: \"{角色名}\" — {外形}, holding {标志道具}, friendly eye-level pose, full body with a little ground shadow.\nFrame: rounded-rectangle card border with a thin cream margin, top caption bar left blank, tiny decorative stars/leaves in corners (no real text).\nBackground: flat {底色} wash with gentle paper texture, simple shape motifs echoing the character's theme.\nLine & color: warm outlines, limited cozy palette, soft shading, handmade charm (slight imperfect fills OK).\nAvoid: scary expressions, hyper-real 3D, dense UI stats panels, trademarks, watermarks, gibberish lettering.",
+      "example": "{角色名}=云朵邮差米拉，{外形}=圆脸短发女孩戴飞鸽邮差帽背皮质小邮包，{标志道具}=会发光的信封，{底色}=雾霾蓝水彩。",
+      "image": "images/2026-10-14/08.jpg",
+      "model": "Grok",
+      "genDate": "2026-10-14"
+    },
+    {
+      "id": "09",
+      "name": "蒸汽波夕阳专辑封面",
+      "photoRef": false,
+      "tagline": "一键生成可发音乐平台的蒸汽波夕阳专辑封面。",
+      "scenarios": [
+        "独立音乐封面",
+        "播客封面",
+        "复古海报",
+        "社交媒体方图"
+      ],
+      "variables": [
+        {
+          "name": "{中心意象}",
+          "desc": "画面中心",
+          "example": "孤岛棕榈与希腊半身石膏像 / 复古跑车停在码头 / 透明泳池与充气火烈鸟"
+        },
+        {
+          "name": "{标题字}",
+          "desc": "专辑名文字",
+          "example": "AURORA DRIVE / PINK MODEM / LAST SUMMER.exe"
+        },
+        {
+          "name": "{网格}",
+          "desc": "复古网格",
+          "example": "紫色透视网格地面 / 青色线框山丘 / 粉橙日落扫描线"
+        },
+        {
+          "name": "{副标题}",
+          "desc": "小字副标题",
+          "example": "side A: night swim / est. 1989 / forever online"
+        }
+      ],
+      "template": "Vaporwave sunset album cover, 1:1 square, retro-futurist graphic poster.\nCenter: {中心意象} rendered with soft plastic/3D-collage look, bathed in hot-pink and teal sunset glow.\nGraphics: {网格} receding to a chrome sun disk; subtle VHS scanlines and gentle chromatic aberration.\nTypography: bold retro-futurist display of \"{标题字}\" across the upper third, small uppercase \"{副标题}\" near the bottom; letterforms clean and intentional (Latin only).\nPalette: magenta, cyan, peach, deep violet; glossy highlights, dreamy haze, 1980s mall-soft nostalgia.\nAvoid: modern flat UI, real celebrity faces, copyrighted logos, illegible cluttered text, watermarks.",
+      "example": "{中心意象}=孤岛棕榈与希腊半身石膏像，{标题字}=AURORA DRIVE，{网格}=紫色透视网格地面，{副标题}=side A: night swim。",
+      "image": "images/2026-10-14/09.jpg",
+      "model": "Grok",
+      "genDate": "2026-10-14"
+    },
+    {
+      "id": "10",
+      "name": "微缩食品卡车俯拍场景",
+      "photoRef": false,
+      "tagline": "上帝视角微缩食品卡车，热闹得像真的夜市。",
+      "scenarios": [
+        "美食账号封面",
+        "活动主视觉",
+        "城市文旅海报",
+        "玩具摄影"
+      ],
+      "variables": [
+        {
+          "name": "{菜系}",
+          "desc": "卡车主题",
+          "example": "日式拉面夜市车 / 墨西哥卷饼快闪车 / 广式糖水甜品车"
+        },
+        {
+          "name": "{招牌色}",
+          "desc": "车身涂装",
+          "example": "朱红+木纹 / 草绿+明黄条纹 / 粉白瓷砖贴面"
+        },
+        {
+          "name": "{人群}",
+          "desc": "微缩人偶",
+          "example": "排队的上班族小人 / 拎相机的游客小人 / 分享甜品的情侣小人"
+        },
+        {
+          "name": "{时段}",
+          "desc": "时间氛围",
+          "example": "灯火初上的黄昏 / 雨后反光的夜晚 / 午后树荫集市"
+        }
+      ],
+      "template": "Tilt-shift miniature food-truck diorama, 16:9 wide, top-down three-quarter God's-eye view.\nSubject: a tiny realistic food truck themed around {菜系}, body painted {招牌色}, awning open, steam rising from a service window; miniature props (bowls, crates, chalkboard with blank scribbles).\nCrowd: {人群} as handmade-scale figurines with slight motion blur, bikes and string lights nearby.\nTime: {时段}, warm practical lamps, shallow tilt-shift depth of field making the set feel like a toy city.\nMaterials: convincing painted metal, plastic, and resin food textures; asphalt with subtle puddle reflections if night/rain.\nAvoid: uncanny real human faces close-up, real brand logos, messy illegible signage, watermarks, gore.",
+      "example": "{菜系}=日式拉面夜市车，{招牌色}=朱红+木纹，{人群}=排队的上班族小人与拎相机的游客，{时段}=灯火初上的黄昏。",
+      "image": "images/2026-10-14/10.jpg",
+      "model": "Grok",
+      "genDate": "2026-10-14"
+    }
+  ]
+}
