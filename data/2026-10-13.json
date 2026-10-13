@@ -4,6 +4,371 @@
   "entries": [
     {
       "id": "01",
+      "name": "复古手绘旅行画报",
+      "model": "Nano Banana",
+      "photoRef": false,
+      "ratio": "3:4",
+      "genDate": "2026-10-13",
+      "tagline": "【Nano Banana 实测】真实街景与温暖彩墨手绘 50/50 无缝跨界融合画报。",
+      "scenarios": [
+        "Nano Banana",
+        "旅行海报",
+        "城市打卡",
+        "小红书封面"
+      ],
+      "variables": [
+        {
+          "name": "{地点/地标}",
+          "desc": "拍摄街景",
+          "example": "A sunlit ancient street in Kyoto"
+        },
+        {
+          "name": "{贯穿主体}",
+          "desc": "横跨两界的中心物体",
+          "example": "a vintage red postal bicycle with a wicker basket"
+        },
+        {
+          "name": "{主色调}",
+          "desc": "调色方向",
+          "example": "terracotta red, bamboo green, warm beige"
+        }
+      ],
+      "template": "A premium 3:4 vertical editorial travel poster featuring {地点/地标}. Split 50/50 vertically without hard borders. The upper 50% is a cinematic hyper-realistic photograph capturing authentic daylight, weathered architectural textures, and natural atmospheric depth. The lower 50% smoothly transitions into playful hand-drawn watercolor and ink illustration on warm textured ivory paper, leaving clean negative space for typography. One prominent subject, {贯穿主体}, naturally extends across the center seam, maintaining identical angle, scale, and color, seamlessly connecting the photographic realm with the illustrated world. Illustration style: loose ink line-art, transparent watercolor washes, quirky imperfect outlines. Color palette: {主色调}. Clean margins, elegant travel editorial aesthetic.",
+      "example": "{地点/地标}=A sunlit ancient street in Kyoto，{贯穿主体}=a vintage red postal bicycle with a wicker basket，{主色调}=terracotta red, bamboo green, warm beige。",
+      "image": "images/2026-10-13/01.jpg"
+    },
+    {
+      "id": "02",
+      "name": "赛博次元撕裂海报",
+      "model": "Nano Banana",
+      "photoRef": false,
+      "ratio": "3:4",
+      "genDate": "2026-10-13",
+      "tagline": "【Nano Banana 实测】真实雨夜潮街与二次元机甲涂鸦的暴烈碰撞。",
+      "scenarios": [
+        "Nano Banana",
+        "潮牌视觉",
+        "赛博朋克",
+        "机甲插画"
+      ],
+      "variables": [
+        {
+          "name": "{真实夜景主体}",
+          "desc": "写实街头主体与城市",
+          "example": "a cyber-fashion streetwear model standing on a wet neon-lit asphalt street in Chongqing"
+        },
+        {
+          "name": "{跨界主体}",
+          "desc": "穿透次元壁的武器/道具",
+          "example": "The character's mechanical glowing cybernetic katana sword"
+        },
+        {
+          "name": "{荧光配色}",
+          "desc": "涂鸦特效配色",
+          "example": "fluorescent magenta and electric cyan"
+        }
+      ],
+      "template": "A dynamic full-bleed 3:4 vertical split-concept key visual poster. The upper section shows an ultra-detailed, dark cinematic night photograph of {真实夜景主体} with photorealistic rain reflections and volumetric haze. The opposing section violently yet aesthetically tears into a hyper-stylized Japanese cyber-mecha anime illustration on dark paper. {跨界主体} cuts diagonally across the dimensional tear, half rendered in tactile real titanium alloy and the other half radiating bold cel-shaded outlines with {荧光配色} graffiti paint splatters. Futuristic typography accents, urban techwear aesthetic, 8k resolution.",
+      "example": "{真实夜景主体}=a cyber-fashion streetwear model standing on a wet neon-lit asphalt street in Chongqing，{跨界主体}=The character's mechanical glowing cybernetic katana sword，{荧光配色}=fluorescent magenta and electric cyan。",
+      "image": "images/2026-10-13/02.jpg"
+    },
+    {
+      "id": "03",
+      "name": "雨窗咖啡馆电影肖像",
+      "model": "Nano Banana",
+      "photoRef": true,
+      "ratio": "3:4",
+      "genDate": "2026-10-13",
+      "tagline": "【Nano Banana 实测】告别磨皮塑料感，真实毛孔发丝与雨滴窗景的电影静止帧。",
+      "scenarios": [
+        "Nano Banana",
+        "★可传照片",
+        "个人写真",
+        "电影感头像"
+      ],
+      "variables": [
+        {
+          "name": "{人物描述}",
+          "desc": "人物外貌与发型",
+          "example": "a stylish 25-year-old woman with wavy auburn hair and subtle freckles"
+        },
+        {
+          "name": "{服装细节}",
+          "desc": "穿搭与材质",
+          "example": "an oversized dark charcoal wool coat over an off-white cashmere sweater"
+        },
+        {
+          "name": "{神态动作}",
+          "desc": "情绪与眼神姿态",
+          "example": "softly past the lens with a quiet, thoughtful, introspective smile"
+        }
+      ],
+      "template": "Cinematic 35mm film still, 3:4 portrait of {人物描述} sitting by a rainy cafe window. Wearing {服装细节}. Her head is slightly tilted, gaze directed {神态动作}, fingertips gently holding a warm ceramic mug. Shot on vintage prime lens, f/1.8 shallow depth of field. Soft overcast daylight filtering through rain-streaked window glass, creating gentle rim lighting on her loose flyaway hair strands. Background smoothly dissolves into warm bokeh lights of the cafe interior. Authentic unfiltered skin texture with visible natural pores and delicate warmth. Kodak Vision3 film grain, muted amber, taupe, and deep espresso tones. Negative prompt: plastic skin, airbrushed, cartoon, extra fingers, oversaturated, stiff pose.",
+      "example": "{人物描述}=a stylish 25-year-old woman with wavy auburn hair and subtle freckles，{服装细节}=an oversized dark charcoal wool coat over an off-white cashmere sweater，{神态动作}=softly past the lens with a quiet, thoughtful, introspective smile。",
+      "image": "images/2026-10-13/03.jpg"
+    },
+    {
+      "id": "04",
+      "name": "高定黑白明暗肖像",
+      "model": "Nano Banana",
+      "photoRef": true,
+      "ratio": "3:4",
+      "genDate": "2026-10-13",
+      "tagline": "【Nano Banana 实测】Vogue 封面级雕塑感骨相硬光，极简高级时尚大片。",
+      "scenarios": [
+        "Nano Banana",
+        "★可传照片",
+        "高级时尚",
+        "黑白大片"
+      ],
+      "variables": [
+        {
+          "name": "{模特特征}",
+          "desc": "面部骨相与发型",
+          "example": "An elegant model with sharp cheekbones, sleek parted black hair, and an intense gaze"
+        },
+        {
+          "name": "{高定时装}",
+          "desc": "剪裁与服装设计",
+          "example": "an architectural avant-garde black blazer with bold pleated shoulders"
+        }
+      ],
+      "template": "High-fashion editorial studio portrait, 3:4 vertical. {模特特征}, wearing {高定时装}. High-contrast Chiaroscuro studio lighting. A sharp snoot spotlight chisels the bone structure, casting dramatic, crisp geometric shadows across the face and neckline, while preserving luminous skin sheen and delicate textures. Fine-art monochrome palette with deep obsidian blacks, creamy mid-tones, and pure specular highlights. Ultra-sharp focus on eyes and iris details, sculptural elegance, museum-tier fashion photography.",
+      "example": "{模特特征}=An elegant model with sharp cheekbones, sleek parted black hair, and an intense gaze，{高定时装}=an architectural avant-garde black blazer with bold pleated shoulders。",
+      "image": "images/2026-10-13/04.jpg"
+    },
+    {
+      "id": "05",
+      "name": "深夜极客梦想工作台",
+      "model": "Nano Banana",
+      "photoRef": false,
+      "ratio": "16:9",
+      "genDate": "2026-10-13",
+      "tagline": "【Nano Banana 实测】海量叙事彩蛋与松弛杂乱感，治愈系深夜数字创作空间。",
+      "scenarios": [
+        "Nano Banana",
+        "桌面美学",
+        "场景插画",
+        "极客文化"
+      ],
+      "variables": [
+        {
+          "name": "{主角特征}",
+          "desc": "人物身份与状态",
+          "example": "a digital artist sitting at an incredibly detailed dream desk setup at 2 AM"
+        },
+        {
+          "name": "{屏幕内容}",
+          "desc": "显示器画面",
+          "example": "a digital canvas painting alongside a Lo-Fi hip hop music stream"
+        },
+        {
+          "name": "{桌面彩蛋}",
+          "desc": "特色小物品",
+          "example": "a steaming white ceramic mug, mechanical keyboard with custom keycaps, and a sleeping fluffy ginger cat"
+        }
+      ],
+      "template": "A hyper-detailed wide-angle atmospheric illustration of {主角特征}. The room is dimly lit, bathed in the gentle glow of dual curved ultrawide monitors and ambient orange neon lightbars. The screens display {屏幕内容}. On the large wooden desk: {桌面彩蛋}. Background and shelves: towering racks filled with manga, vintage sci-fi books, a glowing lava lamp, and neatly displayed anime figurines. Warm and nostalgic midnight mood, rich environmental storytelling in every corner.",
+      "example": "{主角特征}=a digital artist sitting at an incredibly detailed dream desk setup at 2 AM，{屏幕内容}=a digital canvas painting alongside a Lo-Fi hip hop music stream，{桌面彩蛋}=a steaming white ceramic mug, mechanical keyboard with custom keycaps, and a sleeping fluffy ginger cat。",
+      "image": "images/2026-10-13/05.jpg"
+    },
+    {
+      "id": "06",
+      "name": "雨夜深夜食堂老铺",
+      "model": "Nano Banana",
+      "photoRef": false,
+      "ratio": "16:9",
+      "genDate": "2026-10-13",
+      "tagline": "【Nano Banana 实测】白汽升腾与温暖炭火，日剧《深夜食堂》般的人间烟火气。",
+      "scenarios": [
+        "Nano Banana",
+        "治愈美食",
+        "绘本插画",
+        "市井烟火"
+      ],
+      "variables": [
+        {
+          "name": "{地点风情}",
+          "desc": "城市雨巷背景",
+          "example": "a rainy back-alley of Osaka"
+        },
+        {
+          "name": "{掌勺老板描述}",
+          "desc": "厨师外貌与神态",
+          "example": "a kind-faced elderly chef with a folded white headband"
+        },
+        {
+          "name": "{料理细节}",
+          "desc": "烹饪动作与烟气",
+          "example": "grilling skewers over glowing charcoal embers, sending delicate wisps of steam upward"
+        }
+      ],
+      "template": "Intricate wide-shot storybook illustration of a cozy midnight diner in {地点风情}. The tiny wooden counter has seating for only six. Behind the counter, {掌勺老板描述} is {料理细节}. Handwritten calligraphy wooden placards hanging from rafters, simmering copper broth pots, ceramic sake carafes, pickled jars, and warm amber lantern lighting casting soft golden reflections on polished dark cedar wood. Through the open doorway, wet cobblestones glisten with neon city reflections. Intimate, heartwarming, cinematic slice-of-life storytelling.",
+      "example": "{地点风情}=a rainy back-alley of Osaka，{掌勺老板描述}=a kind-faced elderly chef with a folded white headband，{料理细节}=grilling skewers over glowing charcoal embers, sending delicate wisps of steam upward。",
+      "image": "images/2026-10-13/06.jpg"
+    },
+    {
+      "id": "07",
+      "name": "未来复古实体卡带宫格",
+      "model": "Nano Banana",
+      "photoRef": false,
+      "ratio": "1:1",
+      "genDate": "2026-10-13",
+      "tagline": "【Nano Banana 实测】高光透明亚克力收藏盒，4 重前卫材质工业设计展陈。",
+      "scenarios": [
+        "Nano Banana",
+        "3D产品渲染",
+        "工业设计",
+        "四宫格美学"
+      ],
+      "variables": [
+        {
+          "name": "{载体物体}",
+          "desc": "展示实体",
+          "example": "cassette tapes encased in transparent, glossy acrylic jewel display cases"
+        },
+        {
+          "name": "{左上角风格}",
+          "desc": "第一象限",
+          "example": "Holographic Y2K Cyberpunk aesthetic with rainbow iridescent foil"
+        },
+        {
+          "name": "{右上角风格}",
+          "desc": "第二象限",
+          "example": "Minimalist brushed titanium and matte black ceramic finish with Bauhaus circuitry"
+        },
+        {
+          "name": "{左下角风格}",
+          "desc": "第三象限",
+          "example": "Organic liquid glass encapsulating a botanical deep crimson rosebud"
+        },
+        {
+          "name": "{右下角风格}",
+          "desc": "第四象限",
+          "example": "Deep space nebula theme with swirling violet liquid resin and stardust"
+        }
+      ],
+      "template": "A clean 2x2 grid layout showcasing four distinct luxury collectible {载体物体} against a minimal neutral grey backdrop. Top-Left: {左上角风格}. Top-Right: {右上角风格}. Bottom-Left: {左下角风格}. Bottom-Right: {右下角风格}. Sharp studio product lighting, realistic acrylic refractions, visible hinges and screws.",
+      "example": "{载体物体}=cassette tapes encased in transparent, glossy acrylic jewel display cases，{左上角风格}=Holographic Y2K Cyberpunk aesthetic，{右上角风格}=Minimalist brushed titanium，{左下角风格}=Organic liquid glass with crimson rosebud，{右下角风格}=Deep space nebula theme with gold flakes。",
+      "image": "images/2026-10-13/07.jpg"
+    },
+    {
+      "id": "08",
+      "name": "东方四季意境茶器宫格",
+      "model": "Nano Banana",
+      "photoRef": false,
+      "ratio": "1:1",
+      "genDate": "2026-10-13",
+      "tagline": "【Nano Banana 实测】春粉青、夏火山苔藓、秋黄铜、冬初雪，极简禅意器物。",
+      "scenarios": [
+        "Nano Banana",
+        "新中式美学",
+        "器物摄影",
+        "四时意境"
+      ],
+      "variables": [
+        {
+          "name": "{器物类型}",
+          "desc": "展示器物",
+          "example": "artistic minimalist ceramic tea vessels"
+        },
+        {
+          "name": "{春之意境}",
+          "desc": "春季材质",
+          "example": "Translucent celadon jade porcelain with pale cherry-blossom pink micro-crackle glaze"
+        },
+        {
+          "name": "{夏之意境}",
+          "desc": "夏季材质",
+          "example": "Raw textured green volcanic basalt stone, nestled with fresh living moss"
+        },
+        {
+          "name": "{秋之意境}",
+          "desc": "秋季材质",
+          "example": "Hand-hammered antique brass with rich warm amber patinas and gold leaf flecks"
+        },
+        {
+          "name": "{冬之意境}",
+          "desc": "冬季材质",
+          "example": "Matte unglazed pure white bone china resembling wind-carved snow"
+        }
+      ],
+      "template": "A 2x2 symmetrical fine-art product grid exhibiting four {器物类型} inspired by the four seasons: Quadrant 1 (Spring): {春之意境}. Quadrant 2 (Summer): {夏之意境}. Quadrant 3 (Autumn): {秋之意境}. Quadrant 4 (Winter): {冬之意境}. Elegantly balanced composition, museum exhibition pedestal lighting, soft zen shadows, tranquil tactile fine craftsmanship.",
+      "example": "{器物类型}=artistic minimalist ceramic tea vessels，{春之意境}=celadon jade porcelain，{夏之意境}=volcanic basalt stone with moss，{秋之意境}=hammered brass with gold flecks，{冬之意境}=matte white bone china。",
+      "image": "images/2026-10-13/08.jpg"
+    },
+    {
+      "id": "09",
+      "name": "千禧 CCD 派对硬闪抓拍",
+      "model": "Nano Banana",
+      "photoRef": true,
+      "ratio": "4:3",
+      "genDate": "2026-10-13",
+      "tagline": "【Nano Banana 实测】一键复刻 2004 年数码相机机顶闪光灯直出，反 AI 伪造真实感。",
+      "scenarios": [
+        "Nano Banana",
+        "★可传照片",
+        "Y2K复古",
+        "派对胶片"
+      ],
+      "variables": [
+        {
+          "name": "{人物组合}",
+          "desc": "合影主体",
+          "example": "two cheerful best friends"
+        },
+        {
+          "name": "{聚会场景}",
+          "desc": "拍摄地点",
+          "example": "a rooftop birthday party at night"
+        },
+        {
+          "name": "{动态神态}",
+          "desc": "即兴抓拍动作",
+          "example": "one making a funny peace sign and the other laughing with closed eyes"
+        }
+      ],
+      "template": "Candid 2000s compact digital camera snapshot of {人物组合} at {聚会场景}. Shot with harsh direct camera flash creating sharp shadow cutouts against the wall behind them. Natural spontaneous laughter, mid-motion candid gesture, {动态神态}. Loose messy hairstyles caught in the breeze. Authentic skin with real texture, slight flash sheen on cheeks, zero beauty-filter smoothing. Vintage CCD sensor color rendition: slightly warm color casts, subtle digital noise, slight chromatic aberration near edges, real nostalgic party snapshot.",
+      "example": "{人物组合}=two cheerful best friends，{聚会场景}=a rooftop birthday party at night，{动态神态}=one making a funny peace sign and the other laughing with closed eyes。",
+      "image": "images/2026-10-13/09.jpg"
+    },
+    {
+      "id": "10",
+      "name": "慵懒晨光卧室自拍",
+      "model": "Nano Banana",
+      "photoRef": true,
+      "ratio": "9:16",
+      "genDate": "2026-10-13",
+      "tagline": "【Nano Banana 实测】真实手机前置镜头随拍，晨光丁达尔微尘与治愈居家感。",
+      "scenarios": [
+        "Nano Banana",
+        "★可传照片",
+        "生活自拍",
+        "治愈日常"
+      ],
+      "variables": [
+        {
+          "name": "{人物描述}",
+          "desc": "外貌与发型",
+          "example": "A relaxed young woman with messy bedhead dark brown hair and airy bangs"
+        },
+        {
+          "name": "{居家穿搭}",
+          "desc": "衣服材质与款式",
+          "example": "an oversized pale oat-milk knit sweater"
+        },
+        {
+          "name": "{环境光影}",
+          "desc": "晨光与卧室细节",
+          "example": "warm morning golden-hour sunlight pouring through sheer curtains with dust motes"
+        }
+      ],
+      "template": "An ultra-authentic front-camera casual smartphone selfie, 9:16 vertical. {人物描述}, wearing {居家穿搭}. She is sitting cross-legged on an unmade bed, smiling warmly with relaxed eyes directly into the phone lens. {环境光影}. Slight casual front-camera lens perspective, soft background blur showing a messy bedside table with an open paperback and ceramic mug. Realistic skin pores, faint laugh lines, completely natural non-retouched facial expression. Cozy weekend morning aesthetic.",
+      "example": "{人物描述}=A relaxed young woman with messy bedhead dark brown hair，{居家穿搭}=an oversized pale oat-milk knit sweater，{环境光影}=warm morning sunlight with visible dust motes。",
+      "image": "images/2026-10-13/10.jpg"
+    },
+    {
+      "id": "11",
       "name": "胶片夜街电影人像",
       "photoRef": true,
       "tagline": "一张照片秒变王家卫式霓虹夜景电影剧照。",
@@ -41,7 +406,7 @@
       "model": "Grok"
     },
     {
-      "id": "02",
+      "id": "12",
       "name": "夏日汽水光感美颜特写",
       "photoRef": true,
       "tagline": "通透到发光的“初恋感”大头特写，日系清新天花板。",
@@ -79,7 +444,7 @@
       "model": "Grok"
     },
     {
-      "id": "03",
+      "id": "13",
       "name": "千禧 CCD 闪光灯自拍",
       "photoRef": true,
       "tagline": "一键复刻 2005 年数码相机直闪自拍，复古又随意的“真实感”。",
@@ -116,7 +481,7 @@
       "model": "Grok"
     },
     {
-      "id": "04",
+      "id": "14",
       "name": "照片 × 手账拼贴旅行海报",
       "photoRef": false,
       "tagline": "一座城市 = 一页会“长出来”的旅行手账，收藏党必冲。",
@@ -154,7 +519,7 @@
       "model": "Grok"
     },
     {
-      "id": "05",
+      "id": "15",
       "name": "产品照 × 工程蓝图分割海报",
       "photoRef": true,
       "tagline": "上半实拍、下半蓝图拆解，普通商品瞬间“科技旗舰感”。",
@@ -192,7 +557,7 @@
       "model": "Grok"
     },
     {
-      "id": "06",
+      "id": "16",
       "name": "萌宠时尚杂志封面",
       "photoRef": true,
       "tagline": "让你的猫狗登上 VOGUE 封面，主子气场全开。",
@@ -230,7 +595,7 @@
       "model": "Grok"
     },
     {
-      "id": "07",
+      "id": "17",
       "name": "东方几何极简节日/主题封面",
       "photoRef": false,
       "tagline": "一个巨大几何符号 + 大留白，节日海报直接能发。",
@@ -268,7 +633,7 @@
       "model": "Grok"
     },
     {
-      "id": "08",
+      "id": "18",
       "name": "美食/饮品悬浮爆破广告大片",
       "photoRef": false,
       "tagline": "食材炸裂、液体飞溅，一张图做出百万级广告质感。",
@@ -301,7 +666,7 @@
       "model": "Grok"
     },
     {
-      "id": "09",
+      "id": "19",
       "name": "城市立体纸雕绘本海报",
       "photoRef": false,
       "tagline": "把旅行目的地做成一本“打开就立起来”的立体书。",
@@ -334,7 +699,7 @@
       "model": "Grok"
     },
     {
-      "id": "10",
+      "id": "20",
       "name": "复古双人电影海报写真",
       "photoRef": true,
       "tagline": "情侣/闺蜜/家人一秒“主演”70 年代经典电影海报。",
@@ -372,7 +737,7 @@
       "model": "Grok"
     },
     {
-      "id": "11",
+      "id": "21",
       "name": "城市记忆车票",
       "photoRef": false,
       "tagline": "把故乡收藏进一张旧车票",
@@ -416,7 +781,7 @@
       "genDate": "2026-10-13"
     },
     {
-      "id": "12",
+      "id": "22",
       "name": "一杯咖啡长出一个周末",
       "photoRef": false,
       "tagline": "一杯饮品里藏着你的理想周末",
@@ -460,7 +825,7 @@
       "genDate": "2026-10-13"
     },
     {
-      "id": "13",
+      "id": "23",
       "name": "如果人生是四张实体专辑",
       "photoRef": false,
       "tagline": "四种情绪，一套真正能收藏的黑胶",
@@ -509,7 +874,7 @@
       "genDate": "2026-10-13"
     },
     {
-      "id": "14",
+      "id": "24",
       "name": "给四种情绪设计四瓶香水",
       "photoRef": false,
       "tagline": "将看不见的心情装入四瓶香水",
@@ -558,7 +923,7 @@
       "genDate": "2026-10-13"
     },
     {
-      "id": "15",
+      "id": "25",
       "name": "如果猫咪也要上班",
       "photoRef": false,
       "tagline": "一只橘猫上班的灾难六格漫画",
@@ -597,7 +962,7 @@
       "genDate": "2026-10-13"
     },
     {
-      "id": "16",
+      "id": "26",
       "name": "如果人生可以倒带",
       "photoRef": false,
       "tagline": "用五张胶片讲述一个想回去的瞬间",
@@ -641,7 +1006,7 @@
       "genDate": "2026-10-13"
     },
     {
-      "id": "17",
+      "id": "27",
       "name": "打工人的大脑是一间办公室",
       "photoRef": false,
       "tagline": "把工作压力变成一栋脑内办公楼",
@@ -690,7 +1055,7 @@
       "genDate": "2026-10-13"
     },
     {
-      "id": "18",
+      "id": "28",
       "name": "你的房间就是人物说明书",
       "photoRef": false,
       "tagline": "不露脸也能介绍自己的个性微缩房间",
@@ -744,7 +1109,7 @@
       "genDate": "2026-10-13"
     },
     {
-      "id": "19",
+      "id": "29",
       "name": "凌晨便利店的普通自拍",
       "photoRef": true,
       "tagline": "普通手机拍出来的凌晨生活感",
@@ -788,7 +1153,7 @@
       "genDate": "2026-10-13"
     },
     {
-      "id": "20",
+      "id": "30",
       "name": "这一刻普通以后会怀念",
       "photoRef": true,
       "tagline": "多年以后会舍不得删除的朋友聚餐照",
@@ -830,371 +1195,6 @@
       "model": "GPT",
       "ratio": "3:4",
       "genDate": "2026-10-13"
-    },
-    {
-      "id": "21",
-      "name": "复古手绘旅行画报",
-      "model": "Nano Banana",
-      "photoRef": false,
-      "ratio": "3:4",
-      "genDate": "2026-10-13",
-      "tagline": "真实街景与温暖彩墨手绘 50/50 无缝跨界融合画报。",
-      "scenarios": [
-        "旅行海报",
-        "城市打卡",
-        "文创周边",
-        "小红书封面"
-      ],
-      "variables": [
-        {
-          "name": "{地点/地标}",
-          "desc": "拍摄街景",
-          "example": "A sunlit ancient street in Kyoto"
-        },
-        {
-          "name": "{贯穿主体}",
-          "desc": "横跨两界的中心物体",
-          "example": "a vintage red postal bicycle with a wicker basket"
-        },
-        {
-          "name": "{主色调}",
-          "desc": "调色方向",
-          "example": "terracotta red, bamboo green, warm beige"
-        }
-      ],
-      "template": "A premium 3:4 vertical editorial travel poster featuring {地点/地标}. Split 50/50 vertically without hard borders. The upper 50% is a cinematic hyper-realistic photograph capturing authentic daylight, weathered architectural textures, and natural atmospheric depth. The lower 50% smoothly transitions into playful hand-drawn watercolor and ink illustration on warm textured ivory paper, leaving clean negative space for typography. One prominent subject, {贯穿主体}, naturally extends across the center seam, maintaining identical angle, scale, and color, seamlessly connecting the photographic realm with the illustrated world. Illustration style: loose ink line-art, transparent watercolor washes, quirky imperfect outlines. Color palette: {主色调}. Clean margins, elegant travel editorial aesthetic.",
-      "example": "{地点/地标}=A sunlit ancient street in Kyoto，{贯穿主体}=a vintage red postal bicycle with a wicker basket，{主色调}=terracotta red, bamboo green, warm beige。",
-      "image": "images/2026-10-13/nano-01.jpg"
-    },
-    {
-      "id": "22",
-      "name": "赛博次元撕裂海报",
-      "model": "Nano Banana",
-      "photoRef": false,
-      "ratio": "3:4",
-      "genDate": "2026-10-13",
-      "tagline": "真实雨夜潮街与二次元机甲涂鸦的暴烈碰撞。",
-      "scenarios": [
-        "潮牌视觉",
-        "赛博朋克",
-        "机甲插画",
-        "潮流壁纸"
-      ],
-      "variables": [
-        {
-          "name": "{真实夜景主体}",
-          "desc": "写实街头主体与城市",
-          "example": "a cyber-fashion streetwear model standing on a wet neon-lit asphalt street in Chongqing"
-        },
-        {
-          "name": "{跨界主体}",
-          "desc": "穿透次元壁的武器/道具",
-          "example": "The character's mechanical glowing cybernetic katana sword"
-        },
-        {
-          "name": "{荧光配色}",
-          "desc": "涂鸦特效配色",
-          "example": "fluorescent magenta and electric cyan"
-        }
-      ],
-      "template": "A dynamic full-bleed 3:4 vertical split-concept key visual poster. The upper section shows an ultra-detailed, dark cinematic night photograph of {真实夜景主体} with photorealistic rain reflections and volumetric haze. The opposing section violently yet aesthetically tears into a hyper-stylized Japanese cyber-mecha anime illustration on dark paper. {跨界主体} cuts diagonally across the dimensional tear, half rendered in tactile real titanium alloy and the other half radiating bold cel-shaded outlines with {荧光配色} graffiti paint splatters. Futuristic typography accents, urban techwear aesthetic, 8k resolution.",
-      "example": "{真实夜景主体}=a cyber-fashion streetwear model standing on a wet neon-lit asphalt street in Chongqing，{跨界主体}=The character's mechanical glowing cybernetic katana sword，{荧光配色}=fluorescent magenta and electric cyan。",
-      "image": "images/2026-10-13/nano-02.jpg"
-    },
-    {
-      "id": "23",
-      "name": "雨窗咖啡馆电影肖像",
-      "model": "Nano Banana",
-      "photoRef": true,
-      "ratio": "3:4",
-      "genDate": "2026-10-13",
-      "tagline": "告别磨皮塑料感，真实毛孔发丝与雨滴窗景的电影静止帧。",
-      "scenarios": [
-        "个人写真",
-        "电影感头像",
-        "情绪大片",
-        "胶片质感"
-      ],
-      "variables": [
-        {
-          "name": "{人物描述}",
-          "desc": "人物外貌与发型",
-          "example": "a stylish 25-year-old woman with wavy auburn hair and subtle freckles"
-        },
-        {
-          "name": "{服装细节}",
-          "desc": "穿搭与材质",
-          "example": "an oversized dark charcoal wool coat over an off-white cashmere sweater"
-        },
-        {
-          "name": "{神态动作}",
-          "desc": "情绪与眼神姿态",
-          "example": "softly past the lens with a quiet, thoughtful, introspective smile"
-        }
-      ],
-      "template": "Cinematic 35mm film still, 3:4 portrait of {人物描述} sitting by a rainy cafe window. Wearing {服装细节}. Her head is slightly tilted, gaze directed {神态动作}, fingertips gently holding a warm ceramic mug. Shot on vintage prime lens, f/1.8 shallow depth of field. Soft overcast daylight filtering through rain-streaked window glass, creating gentle rim lighting on her loose flyaway hair strands. Background smoothly dissolves into warm bokeh lights of the cafe interior. Authentic unfiltered skin texture with visible natural pores and delicate warmth. Kodak Vision3 film grain, muted amber, taupe, and deep espresso tones. Negative prompt: plastic skin, airbrushed, cartoon, extra fingers, oversaturated, stiff pose.",
-      "example": "{人物描述}=a stylish 25-year-old woman with wavy auburn hair and subtle freckles，{服装细节}=an oversized dark charcoal wool coat over an off-white cashmere sweater，{神态动作}=softly past the lens with a quiet, thoughtful, introspective smile。",
-      "image": "images/2026-10-13/nano-03.jpg"
-    },
-    {
-      "id": "24",
-      "name": "高定黑白明暗肖像",
-      "model": "Nano Banana",
-      "photoRef": true,
-      "ratio": "3:4",
-      "genDate": "2026-10-13",
-      "tagline": "Vogue 封面级雕塑感骨相硬光，极简高级时尚大片。",
-      "scenarios": [
-        "高级时尚",
-        "黑白大片",
-        "艺术肖像",
-        "杂志封面"
-      ],
-      "variables": [
-        {
-          "name": "{模特特征}",
-          "desc": "面部骨相与发型",
-          "example": "An elegant model with sharp cheekbones, sleek parted black hair, and an intense gaze"
-        },
-        {
-          "name": "{高定时装}",
-          "desc": "剪裁与服装设计",
-          "example": "an architectural avant-garde black blazer with bold pleated shoulders"
-        }
-      ],
-      "template": "High-fashion editorial studio portrait, 3:4 vertical. {模特特征}, wearing {高定时装}. High-contrast Chiaroscuro studio lighting. A sharp snoot spotlight chisels the bone structure, casting dramatic, crisp geometric shadows across the face and neckline, while preserving luminous skin sheen and delicate textures. Fine-art monochrome palette with deep obsidian blacks, creamy mid-tones, and pure specular highlights. Ultra-sharp focus on eyes and iris details, sculptural elegance, museum-tier fashion photography.",
-      "example": "{模特特征}=An elegant model with sharp cheekbones, sleek parted black hair, and an intense gaze，{高定时装}=an architectural avant-garde black blazer with bold pleated shoulders。",
-      "image": "images/2026-10-13/nano-04.jpg"
-    },
-    {
-      "id": "25",
-      "name": "深夜极客梦想工作台",
-      "model": "Nano Banana",
-      "photoRef": false,
-      "ratio": "16:9",
-      "genDate": "2026-10-13",
-      "tagline": "海量叙事彩蛋与松弛杂乱感，治愈系深夜数字创作空间。",
-      "scenarios": [
-        "桌面美学",
-        "场景插画",
-        "极客文化",
-        "电脑壁纸"
-      ],
-      "variables": [
-        {
-          "name": "{主角特征}",
-          "desc": "人物身份与状态",
-          "example": "a digital artist sitting at an incredibly detailed dream desk setup at 2 AM"
-        },
-        {
-          "name": "{屏幕内容}",
-          "desc": "显示器画面",
-          "example": "a digital canvas painting alongside a Lo-Fi hip hop music stream"
-        },
-        {
-          "name": "{桌面彩蛋}",
-          "desc": "特色小物品",
-          "example": "a steaming white ceramic mug, mechanical keyboard with custom keycaps, and a sleeping fluffy ginger cat"
-        }
-      ],
-      "template": "A hyper-detailed wide-angle atmospheric illustration of {主角特征}. The room is dimly lit, bathed in the gentle glow of dual curved ultrawide monitors and ambient orange neon lightbars. The screens display {屏幕内容}. On the large wooden desk: {桌面彩蛋}. Background and shelves: towering racks filled with manga, vintage sci-fi books, a glowing lava lamp, and neatly displayed anime figurines. Warm and nostalgic midnight mood, rich environmental storytelling in every corner.",
-      "example": "{主角特征}=a digital artist sitting at an incredibly detailed dream desk setup at 2 AM，{屏幕内容}=a digital canvas painting alongside a Lo-Fi hip hop music stream，{桌面彩蛋}=a steaming white ceramic mug, mechanical keyboard with custom keycaps, and a sleeping fluffy ginger cat。",
-      "image": "images/2026-10-13/nano-05.jpg"
-    },
-    {
-      "id": "26",
-      "name": "雨夜深夜食堂老铺",
-      "model": "Nano Banana",
-      "photoRef": false,
-      "ratio": "16:9",
-      "genDate": "2026-10-13",
-      "tagline": "白汽升腾与温暖炭火，日剧《深夜食堂》般的人间烟火气。",
-      "scenarios": [
-        "治愈美食",
-        "绘本插画",
-        "市井烟火",
-        "暖心壁纸"
-      ],
-      "variables": [
-        {
-          "name": "{地点风情}",
-          "desc": "城市雨巷背景",
-          "example": "a rainy back-alley of Osaka"
-        },
-        {
-          "name": "{掌勺老板描述}",
-          "desc": "厨师外貌与神态",
-          "example": "a kind-faced elderly chef with a folded white headband"
-        },
-        {
-          "name": "{料理细节}",
-          "desc": "烹饪动作与烟气",
-          "example": "grilling skewers over glowing charcoal embers, sending delicate wisps of steam upward"
-        }
-      ],
-      "template": "Intricate wide-shot storybook illustration of a cozy midnight diner in {地点风情}. The tiny wooden counter has seating for only six. Behind the counter, {掌勺老板描述} is {料理细节}. Handwritten calligraphy wooden placards hanging from rafters, simmering copper broth pots, ceramic sake carafes, pickled jars, and warm amber lantern lighting casting soft golden reflections on polished dark cedar wood. Through the open doorway, wet cobblestones glisten with neon city reflections. Intimate, heartwarming, cinematic slice-of-life storytelling.",
-      "example": "{地点风情}=a rainy back-alley of Osaka，{掌勺老板描述}=a kind-faced elderly chef with a folded white headband，{料理细节}=grilling skewers over glowing charcoal embers, sending delicate wisps of steam upward。",
-      "image": "images/2026-10-13/nano-06.jpg"
-    },
-    {
-      "id": "27",
-      "name": "未来复古实体卡带宫格",
-      "model": "Nano Banana",
-      "photoRef": false,
-      "ratio": "1:1",
-      "genDate": "2026-10-13",
-      "tagline": "高光透明亚克力收藏盒，4 重前卫材质工业设计展陈。",
-      "scenarios": [
-        "3D产品渲染",
-        "工业设计",
-        "四宫格美学",
-        "潮玩概念"
-      ],
-      "variables": [
-        {
-          "name": "{载体物体}",
-          "desc": "展示实体",
-          "example": "cassette tapes encased in transparent, glossy acrylic jewel display cases"
-        },
-        {
-          "name": "{左上角风格}",
-          "desc": "第一象限",
-          "example": "Holographic Y2K Cyberpunk aesthetic with rainbow iridescent foil"
-        },
-        {
-          "name": "{右上角风格}",
-          "desc": "第二象限",
-          "example": "Minimalist brushed titanium and matte black ceramic finish with Bauhaus circuitry"
-        },
-        {
-          "name": "{左下角风格}",
-          "desc": "第三象限",
-          "example": "Organic liquid glass encapsulating a botanical deep crimson rosebud"
-        },
-        {
-          "name": "{右下角风格}",
-          "desc": "第四象限",
-          "example": "Deep space nebula theme with swirling violet liquid resin and stardust"
-        }
-      ],
-      "template": "A clean 2x2 grid layout showcasing four distinct luxury collectible {载体物体} against a minimal neutral grey backdrop. Top-Left: {左上角风格}. Top-Right: {右上角风格}. Bottom-Left: {左下角风格}. Bottom-Right: {右下角风格}. Sharp studio product lighting, realistic acrylic refractions, visible hinges and screws.",
-      "example": "{载体物体}=cassette tapes encased in transparent, glossy acrylic jewel display cases，{左上角风格}=Holographic Y2K Cyberpunk aesthetic，{右上角风格}=Minimalist brushed titanium，{左下角风格}=Organic liquid glass with crimson rosebud，{右下角风格}=Deep space nebula theme with gold flakes。",
-      "image": "images/2026-10-13/nano-07.jpg"
-    },
-    {
-      "id": "28",
-      "name": "东方四季意境茶器宫格",
-      "model": "Nano Banana",
-      "photoRef": false,
-      "ratio": "1:1",
-      "genDate": "2026-10-13",
-      "tagline": "春粉青、夏火山苔藓、秋黄铜、冬初雪，极简禅意器物。",
-      "scenarios": [
-        "新中式美学",
-        "器物摄影",
-        "四时意境",
-        "茶道空间"
-      ],
-      "variables": [
-        {
-          "name": "{器物类型}",
-          "desc": "展示器物",
-          "example": "artistic minimalist ceramic tea vessels"
-        },
-        {
-          "name": "{春之意境}",
-          "desc": "春季材质",
-          "example": "Translucent celadon jade porcelain with pale cherry-blossom pink micro-crackle glaze"
-        },
-        {
-          "name": "{夏之意境}",
-          "desc": "夏季材质",
-          "example": "Raw textured green volcanic basalt stone, nestled with fresh living moss"
-        },
-        {
-          "name": "{秋之意境}",
-          "desc": "秋季材质",
-          "example": "Hand-hammered antique brass with rich warm amber patinas and gold leaf flecks"
-        },
-        {
-          "name": "{冬之意境}",
-          "desc": "冬季材质",
-          "example": "Matte unglazed pure white bone china resembling wind-carved snow"
-        }
-      ],
-      "template": "A 2x2 symmetrical fine-art product grid exhibiting four {器物类型} inspired by the four seasons: Quadrant 1 (Spring): {春之意境}. Quadrant 2 (Summer): {夏之意境}. Quadrant 3 (Autumn): {秋之意境}. Quadrant 4 (Winter): {冬之意境}. Elegantly balanced composition, museum exhibition pedestal lighting, soft zen shadows, tranquil tactile fine craftsmanship.",
-      "example": "{器物类型}=artistic minimalist ceramic tea vessels，{春之意境}=celadon jade porcelain，{夏之意境}=volcanic basalt stone with moss，{秋之意境}=hammered brass with gold flecks，{冬之意境}=matte white bone china。",
-      "image": "images/2026-10-13/nano-08.jpg"
-    },
-    {
-      "id": "29",
-      "name": "千禧 CCD 派对硬闪抓拍",
-      "model": "Nano Banana",
-      "photoRef": true,
-      "ratio": "4:3",
-      "genDate": "2026-10-13",
-      "tagline": "一键复刻 2004 年数码相机机顶闪光灯直出，反 AI 伪造真实感。",
-      "scenarios": [
-        "Y2K复古",
-        "派对胶片",
-        "朋友合影",
-        "朋友圈随拍"
-      ],
-      "variables": [
-        {
-          "name": "{人物组合}",
-          "desc": "合影主体",
-          "example": "two cheerful best friends"
-        },
-        {
-          "name": "{聚会场景}",
-          "desc": "拍摄地点",
-          "example": "a rooftop birthday party at night"
-        },
-        {
-          "name": "{动态神态}",
-          "desc": "即兴抓拍动作",
-          "example": "one making a funny peace sign and the other laughing with closed eyes"
-        }
-      ],
-      "template": "Candid 2000s compact digital camera snapshot of {人物组合} at {聚会场景}. Shot with harsh direct camera flash creating sharp shadow cutouts against the wall behind them. Natural spontaneous laughter, mid-motion candid gesture, {动态神态}. Loose messy hairstyles caught in the breeze. Authentic skin with real texture, slight flash sheen on cheeks, zero beauty-filter smoothing. Vintage CCD sensor color rendition: slightly warm color casts, subtle digital noise, slight chromatic aberration near edges, real nostalgic party snapshot.",
-      "example": "{人物组合}=two cheerful best friends，{聚会场景}=a rooftop birthday party at night，{动态神态}=one making a funny peace sign and the other laughing with closed eyes。",
-      "image": "images/2026-10-13/nano-09.jpg"
-    },
-    {
-      "id": "30",
-      "name": "慵懒晨光卧室自拍",
-      "model": "Nano Banana",
-      "photoRef": true,
-      "ratio": "9:16",
-      "genDate": "2026-10-13",
-      "tagline": "真实手机前置镜头随拍，晨光丁达尔微尘与治愈居家感。",
-      "scenarios": [
-        "生活自拍",
-        "治愈日常",
-        "晨光氛围",
-        "小红书随拍"
-      ],
-      "variables": [
-        {
-          "name": "{人物描述}",
-          "desc": "外貌与发型",
-          "example": "A relaxed young woman with messy bedhead dark brown hair and airy bangs"
-        },
-        {
-          "name": "{居家穿搭}",
-          "desc": "衣服材质与款式",
-          "example": "an oversized pale oat-milk knit sweater"
-        },
-        {
-          "name": "{环境光影}",
-          "desc": "晨光与卧室细节",
-          "example": "warm morning golden-hour sunlight pouring through sheer curtains with dust motes"
-        }
-      ],
-      "template": "An ultra-authentic front-camera casual smartphone selfie, 9:16 vertical. {人物描述}, wearing {居家穿搭}. She is sitting cross-legged on an unmade bed, smiling warmly with relaxed eyes directly into the phone lens. {环境光影}. Slight casual front-camera lens perspective, soft background blur showing a messy bedside table with an open paperback and ceramic mug. Realistic skin pores, faint laugh lines, completely natural non-retouched facial expression. Cozy weekend morning aesthetic.",
-      "example": "{人物描述}=A relaxed young woman with messy bedhead dark brown hair，{居家穿搭}=an oversized pale oat-milk knit sweater，{环境光影}=warm morning sunlight with visible dust motes。",
-      "image": "images/2026-10-13/nano-10.jpg"
     }
   ]
 }
