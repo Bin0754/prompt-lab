@@ -7,7 +7,7 @@ async function copy(text){try{await navigator.clipboard.writeText(text)}catch{co
 function fill(e){const m={};(e.example.match(/\{[^}]+\}=[^，]+/g)||[]).forEach(p=>{const i=p.indexOf('=');m[p.slice(0,i)]=p.slice(i+1).replace(/[。"“”]/g,'').trim()});return e.template.replace(/\{[^}]+\}/g,k=>m[k]||k)}
 async function load(date){
   day=await (await fetch(`data/${date}.json`)).json();
-  $('#meta').textContent=`${day.entries.length} 个模板 · ${date}`;$('#src').href=day.source||'#';$('#src').textContent=day.source||'';
+  $('#meta').textContent=`${day.entries.length} 个模板 · ${date}`;
   render();
   if(location.hash.startsWith('#'+date+'/')){const id=location.hash.split('/')[1];const i=day.entries.findIndex(e=>e.id===id);if(i>=0)open(i)}
 }
