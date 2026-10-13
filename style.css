@@ -58,4 +58,4 @@ pre{background:#0b0b0f;border:1px solid var(--line);border-radius:12px;padding:1
 .card .tags{display:none}
 @media(max-width:1000px){.grid{columns:3}}
 @media(max-width:640px){.grid{columns:2;column-gap:8px}.gallery{padding:8px}.card{margin-bottom:8px}.bar h1{display:none}.grid{grid-template-columns:none}}
-@media(min-width:1001px){.grid{columns:4}}@media(min-width:1500px){.grid{columns:5}}@media(min-width:1900px){.grid{columns:6}}
+@media(min-width:1001px){.grid{columns:5}}
