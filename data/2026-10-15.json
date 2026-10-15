@@ -1,0 +1,396 @@
+{
+  "date": "2026-10-15",
+  "source": "https://youmind.com/zh-CN/gpt-image-2-5-prompts",
+  "entries": [
+    {
+      "id": "01",
+      "name": "双色丝网乐队巡演海报",
+      "photoRef": false,
+      "tagline": "把任何乐队/活动做成可上墙的双色丝网印刷巡演海报。",
+      "scenarios": [
+        "独立音乐宣发",
+        "市集活动海报",
+        "小红书封面",
+        "周边 T 恤印花参考"
+      ],
+      "variables": [
+        {
+          "name": "{乐队名}",
+          "desc": "主标题文字",
+          "example": "NIGHT OWL TRIO / 晚风电台 / PAPER TIGER"
+        },
+        {
+          "name": "{城市场次}",
+          "desc": "副信息行",
+          "example": "Shanghai · 10.18 / Kyoto Club Night / 成都东郊记忆"
+        },
+        {
+          "name": "{主视觉}",
+          "desc": "中心图形主题",
+          "example": "猫头鹰头骨叠吉他 / 磁带卷成月亮 / 三只纸老虎剪影"
+        },
+        {
+          "name": "{双色}",
+          "desc": "丝网两色",
+          "example": "荧光橙+深蓝 / 玫红+墨绿 / 柠檬黄+炭黑"
+        }
+      ],
+      "template": "Two-color silkscreen concert poster, vertical 3:4, handmade print look.\nHero title: \"{乐队名}\" in bold condensed display type, slightly misregistered for authentic screen-print offset.\nSubtitle line: \"{城市场次}\" in small gothic/sans caps under the title.\nCentral graphic: {主视觉}, high-contrast stencil shapes, limited halftone dots, no gradients beyond coarse dots.\nPalette: only {双色} on cream off-white paper stock; visible paper fiber, soft ink bleed at edges.\nComposition: large title upper third, graphic dominates center, thin tear-off ticket stubs along the bottom edge with blank date boxes (no tiny illegible text).\nMood: indie gig energy, collectible, tape on a bedroom wall.\nAvoid: photorealism, full-color CMYK look, watermarks, real artist logos, QR codes, dense paragraphs.",
+      "example": "{乐队名}=NIGHT OWL TRIO，{城市场次}=Shanghai · Bund Warehouse · 10.18，{主视觉}=猫头鹰头骨与断开的电吉他颈叠成月牙，{双色}=荧光橙+深蓝。",
+      "image": "images/2026-10-15/01.jpg",
+      "model": "Grok",
+      "genDate": "2026-10-15"
+    },
+    {
+      "id": "02",
+      "name": "日常变奥运的竞技抓拍",
+      "photoRef": false,
+      "tagline": "把扫地、做饭、遛狗拍成决赛现场的严肃又好笑的体育摄影。",
+      "scenarios": [
+        "生活号封面",
+        "表情包原图",
+        "品牌趣味广告",
+        "短视频封面"
+      ],
+      "variables": [
+        {
+          "name": "{选手}",
+          "desc": "虚构选手外貌与年龄感",
+          "example": "二十多岁短发东亚女生 / 中年围裙大叔 / 戴眼镜的纤细男生"
+        },
+        {
+          "name": "{家务项目}",
+          "desc": "被升级的日常项目",
+          "example": "极限拖把回旋 / 双人叠被竞速 / 阳台晒被迎风"
+        },
+        {
+          "name": "{制服}",
+          "desc": "赛事制服设计",
+          "example": "红白条纹连体工装+号码胸贴 / 薄荷绿围裙战袍+护膝 / 牛仔背带+汗带"
+        },
+        {
+          "name": "{场馆}",
+          "desc": "夸张赛场环境",
+          "example": "灯火通明的体育馆洗衣区 / 看台环绕的开放式厨房 / 洒满肥皂泡的田径跑道"
+        }
+      ],
+      "template": "Sports photojournalism moment, 3:2 landscape, freeze-frame of a fictional \"Household World Championship\".\nAthlete: {选手}, full-body, face is an original fictional person (not a real celebrity), intense focused expression with a hint of comedy.\nAction: {家务项目}, peak-action pose with motion blur only on extremities, sweat beads, chalk dust or soap suds in air.\nKit: custom competition uniform — {制服}, visible bib number like \"07\", no real brand logos.\nVenue: {场馆}, stadium lighting, shallow depth of field, rim light outlining the athlete, spectators as soft bokeh blobs.\nGrade: crisp ESPN/Olympic broadcast still, natural skin texture, high shutter-speed clarity, subtle lens flare.\nAvoid: real person likeness, bloody injury, readable ads, watermarks, childish cartoon style.",
+      "example": "{选手}=二十多岁短发东亚女生，清爽运动马尾，{家务项目}=极限拖把回旋甩干，拖把布面甩出完美圆弧水花，{制服}=红白条纹连体工装+胸前号码07+护腕，{场馆}=灯火通明的体育馆中央，地面是巨大瓷砖客厅地板，看台虚化。",
+      "image": "images/2026-10-15/02.jpg",
+      "model": "Grok",
+      "genDate": "2026-10-15"
+    },
+    {
+      "id": "03",
+      "name": "物件变形超现实广告静物",
+      "photoRef": false,
+      "tagline": "让一件日常小物无缝长成一片不可思议的景观，拍成高端广告大片。",
+      "scenarios": [
+        "品牌主视觉",
+        "香水/数码/文具广告",
+        "艺术海报",
+        "作品集封面"
+      ],
+      "variables": [
+        {
+          "name": "{物件}",
+          "desc": "前景英雄小物",
+          "example": "复古黑胶磁带 / 拆开的钢笔笔尖 / 半融化的蜡烛"
+        },
+        {
+          "name": "{延展景观}",
+          "desc": "从小物长出的世界",
+          "example": "磁带带变成灯火高速公路 / 墨水河穿行峡谷城市 / 蜡泪凝成雪山灯串"
+        },
+        {
+          "name": "{时段氛围}",
+          "desc": "光线与色温",
+          "example": "蓝色时刻沙漠 / 金色日出雾谷 / 紫红雷暴前夜"
+        },
+        {
+          "name": "{比例}",
+          "desc": "画幅",
+          "example": "1:1 / 4:5 / 16:9"
+        }
+      ],
+      "template": "Surreal premium advertising still life, aspect ratio {比例}, photoreal cinematic.\nHero prop: {物件} sharp in the near foreground on a believable surface (sand, desk, stone).\nTransformation: its material seamlessly scales into {延展景观}, tiny cars/figures/paths for scale, continuous texture match so the morph feels physical not pasted.\nAtmosphere: {时段氛围}, volumetric haze, strong single focal point, generous clean negative space on one side for optional headline.\nGrade: deep navy/amber or analogous editorial color, razor detail on the prop, creamy bokeh in far skyline.\nNo logos, no extra captions, no watermarks, no celebrity faces.\nAvoid: cheap CGI seams, floating unrelated objects, cluttered text.",
+      "example": "{物件}=一盘翻盖半开的复古黑色磁带躺在细沙上，{延展景观}=拉出的磁带带平滑抬升成灯火通明的高速公路并通向玻璃未来城天际线，带上有微缩车灯，{时段氛围}=蓝色时刻沙漠，暖琥珀路灯对比深海军蓝天空，{比例}=1:1。",
+      "image": "images/2026-10-15/03.jpg",
+      "model": "Grok",
+      "genDate": "2026-10-15"
+    },
+    {
+      "id": "04",
+      "name": "季节特调饮品杂志封面",
+      "photoRef": false,
+      "tagline": "一杯特调占据封面英雄位，排版干净得像精品咖啡杂志。",
+      "scenarios": [
+        "咖啡店新品海报",
+        "小红书探店图",
+        "菜单头图",
+        "品牌季报封面"
+      ],
+      "variables": [
+        {
+          "name": "{饮品}",
+          "desc": "杯中内容与容器",
+          "example": "分层桂花龙井冰拿铁玻璃杯 / 厚泡热可可陶瓷杯 / 柚子苏打高球杯"
+        },
+        {
+          "name": "{季节点缀}",
+          "desc": "顶料与配景",
+          "example": "金桂花洒顶+虚化黄花 / 迷你棉花糖雪山+肉桂棒 / 柚子皮扭条+薄荷"
+        },
+        {
+          "name": "{主标题}",
+          "desc": "大号封面字",
+          "example": "满陇桂雨 / WINTER COCOA / YUZU SPARK"
+        },
+        {
+          "name": "{色调}",
+          "desc": "背景与整体色",
+          "example": "奶油米色虚化 / 焦糖暖棕 / 清透青柠绿"
+        }
+      ],
+      "template": "Vertical 4:5 gourmet beverage magazine cover, food photography meets editorial typography.\nHero: close-up of {饮品}, condensation and foam texture ultra-detailed, centered slightly low for title room.\nGarnish & set: {季节点缀}, soft beige-to-{色调} backdrop, gentle overhead softbox plus warm edge light.\nTypography (must be spelled exactly): small top kicker \"SEASONAL SIP\", large bold title \"{主标题}\", thin English subtitle \"A CUP OF GOOD SEASON\"; keep text sparse, high contrast, perfect letterforms, no extra random words.\nLayout: generous margins, product occupies lower-middle 45%, titles in upper half without covering the foam peak.\nAvoid: messy fonts, misspellings, brand logos, hands, crowded stickers, watermarks.",
+      "example": "{饮品}=高透玻璃杯分层冰拿铁，下层漩涡牛奶、上层深焙咖啡、顶层厚奶泡，{季节点缀}=奶泡上密洒金黄桂花，左上角虚化桂花枝，{主标题}=满陇桂雨，{色调}=奶油米色虚化背景带一抹秋黄。",
+      "image": "images/2026-10-15/04.jpg",
+      "model": "Grok",
+      "genDate": "2026-10-15"
+    },
+    {
+      "id": "05",
+      "name": "网点漫画三人大片",
+      "photoRef": false,
+      "tagline": "用黑白漫画网点画出三个角色互相较劲的名场面立绘。",
+      "scenarios": [
+        "角色介绍图",
+        "同人封面",
+        "贴纸原画",
+        "分镜情绪板"
+      ],
+      "variables": [
+        {
+          "name": "{左角色}",
+          "desc": "左侧人物设定",
+          "example": "圆框眼镜凌乱发髻女生、惊讶前倾 / 沉稳西装少年举手制止"
+        },
+        {
+          "name": "{中角色}",
+          "desc": "中间核心人物",
+          "example": "猫耳短发女生双臂推开两侧 / 队长袖标少年一脸无奈"
+        },
+        {
+          "name": "{右角色}",
+          "desc": "右侧人物设定",
+          "example": "赤脚宽裤凌乱长发、挑衅凑近 / 卫衣女生拽袖口起哄"
+        },
+        {
+          "name": "{情绪}",
+          "desc": "场面情绪关键词",
+          "example": "好友拌嘴推搡 / 赛前打气吵闹 / 告白被撞破的慌乱"
+        }
+      ],
+      "template": "Black-and-white manga illustration, 1:1 square, plain pure white background.\nThree original fictional young adults in a row: left is {左角色}; center is {中角色}; right is {右角色}.\nInteraction mood: {情绪}, strong body language, overlapping arms, speed lines sparingly near hands.\nStyle: clean ink contours, screentone shading, cross-hatching in shadows, expressive eyes, no gray wash painting; print-ready comic clarity.\nCharacters are invented (not real people), casual modern clothes, coherent proportions, dynamic but readable silhouette.\nAvoid: color, photoreal skin, busy background props, watermarks, speech bubbles with long text, real trademarks.",
+      "example": "{左角色}=深色凌乱发髻、圆框眼镜、宽松毛衣配黑紧身牛仔裤的女生，身体前倾张嘴惊呼，{中角色}=浅色短发猫耳女生，T恤灰牛仔裤，双臂伸直用力推开两侧，一脸恼怒，{右角色}=齐肩乱发、宽松衬衫阔腿裤、赤脚的女生侧身挑衅凑近，{情绪}=好友拌嘴推搡却很有爱。",
+      "image": "images/2026-10-15/05.jpg",
+      "model": "Grok",
+      "genDate": "2026-10-15"
+    },
+    {
+      "id": "06",
+      "name": "折纸立体书开页奇观",
+      "photoRef": false,
+      "tagline": "打开一本立体书，纸雕建筑从书槽里拔地而起。",
+      "scenarios": [
+        "儿童内容封面",
+        "文创详情页",
+        "节日贺卡主图",
+        "品牌故事插画"
+      ],
+      "variables": [
+        {
+          "name": "{书主题}",
+          "desc": "立体书世界主题",
+          "example": "迷你江南水乡 / 北极光冰桥车站 / 热带小鸟丛林神庙"
+        },
+        {
+          "name": "{纸色}",
+          "desc": "主纸张配色",
+          "example": "米白+靛青宣纸感 / 雪白+冰蓝珠光 / 牛皮纸+翠绿"
+        },
+        {
+          "name": "{光源}",
+          "desc": "舞台光",
+          "example": "侧窗暖阳光扫过纸棱 / 冷白展柜射灯 / 书缝透出的微弱彩光"
+        },
+        {
+          "name": "{视角}",
+          "desc": "相机角度",
+          "example": "45°俯视开页 / 平视书槽中央 / 微距贴着纸桥"
+        }
+      ],
+      "template": "Pop-up paper engineering photograph, 4:3, museum-catalog quality.\nAn open hardcover book on a wooden table; from the center spread rises a intricate papercraft diorama of {书主题}, layered cut cardstock, visible score folds, tiny paper figures and bridges.\nMaterials: {纸色}, crisp knife-cut edges, subtle fiber texture, no plastic shine.\nLighting: {光源}, soft shadows between layers emphasizing depth.\nCamera: {视角}, shallow depth of field so farthest paper mountains gently blur, dust motes optional.\nFeel: handmade wonder, quiet craftsmanship, collectible art object.\nAvoid: 3D CGI plastic look, real logos, humans holding the book, cluttered text on pages, watermarks.",
+      "example": "{书主题}=迷你江南水乡，白墙黛瓦、拱桥、乌篷船与小桥行人皆为多层纸雕，{纸色}=米白+靛青宣纸感，屋顶用更深靛蓝卡纸，{光源}=侧窗暖阳光扫过纸棱投下细长影，{视角}=45°俯视开页，书槽深处略虚。",
+      "image": "images/2026-10-15/06.jpg",
+      "model": "Grok",
+      "genDate": "2026-10-15"
+    },
+    {
+      "id": "07",
+      "name": "红外伪彩城市夜航拍",
+      "photoRef": false,
+      "tagline": "用红外伪彩色把熟悉的城市航拍拍成科幻热感地图。",
+      "scenarios": [
+        "科技公司 KV",
+        "播客封面",
+        "数据可视化装饰图",
+        "壁纸"
+      ],
+      "variables": [
+        {
+          "name": "{城市地貌}",
+          "desc": "可辨认的城市结构",
+          "example": "江河穿城的桥网 / 老城区密巷鱼骨路 / 海岸线集装箱港"
+        },
+        {
+          "name": "{热力色}",
+          "desc": "伪彩映射",
+          "example": "洋红热岛+青绿冷巷 / 琥珀大道+靛蓝阴影 / 电光紫干道+墨蓝屋顶"
+        },
+        {
+          "name": "{时刻}",
+          "desc": "航拍时间感",
+          "example": "深夜车流如血管 / 黎明薄雾屋顶 / 雨后反光柏油"
+        },
+        {
+          "name": "{焦点}",
+          "desc": "画面锚点",
+          "example": "发光立交枢纽 / 圆形体育场 / 港口塔吊群"
+        }
+      ],
+      "template": "Aerial infrared false-color cityscape, 16:9 cinematic still, as if thermal + NIR composite.\nTerrain: {城市地貌}, readable block structure from 800m altitude, {焦点} as the brightest heat anchor.\nPalette mapping: {热力色}, streets glow warmer than roofs, water reads near-black, no naturalistic daylight colors.\nTime feel: {时刻}, long-exposure-like light streaks on main roads, crisp building footprints.\nStyle: premium tech key visual, slight film grain, clean horizon haze, no labels, no logos, no UI overlays.\nAvoid: drone UI, watermarks, readable billboards, people faces, cartoon simplification.",
+      "example": "{城市地貌}=宽阔江面被多座斜拉桥切开的东方都市，两岸高楼与旧街并存，{热力色}=洋红热岛楼顶+青绿冷巷与江水近黑，{时刻}=深夜车流如发光血管沿桥蔓延，{焦点}=江心发光立交枢纽呈白热。",
+      "image": "images/2026-10-15/07.jpg",
+      "model": "Grok",
+      "genDate": "2026-10-15"
+    },
+    {
+      "id": "08",
+      "name": "羊毛毡宠物时装大片",
+      "photoRef": false,
+      "tagline": "给毛茸茸的毡化宠物拍一场迷你高定时装大片。",
+      "scenarios": [
+        "宠物品牌广告",
+        "礼物卡",
+        "表情周边",
+        "电商主图"
+      ],
+      "variables": [
+        {
+          "name": "{宠物}",
+          "desc": "毡化动物造型",
+          "example": "圆眼三花猫坐姿 / 垂耳棕色小狗站立 / 小小赤狐回眸"
+        },
+        {
+          "name": "{高定造型}",
+          "desc": "服装与配饰",
+          "example": "微型风衣+贝雷帽 / 珍珠项圈+纱裙 / 牛仔夹克+墨镜"
+        },
+        {
+          "name": "{场景}",
+          "desc": "迷你棚景",
+          "example": "纸质巴黎街角 / 绒布沙发与台灯 / 花丛通透窗光"
+        },
+        {
+          "name": "{情绪}",
+          "desc": "表情与姿态",
+          "example": "高贵侧目 / 好奇探头 / 慵懒躺平抬爪"
+        }
+      ],
+      "template": "Needle-felt wool pet fashion editorial, 3:4 vertical, tactile macro photography look.\nSubject: handmade felted {宠物}, visible wool fibers and tiny stitching, adorable but elegant — original character, not a real branded mascot.\nOutfit: {高定造型}, proportionally tiny, fabric texture readable, no real designer logos.\nSet: {场景}, soft studio key light plus gentle fill, creamy bokeh.\nPose & mood: {情绪}, eye catchlights, shallow depth of field focusing on face and outfit details.\nGrade: warm lifestyle campaign, high detail fuzz, cozy luxury.\nAvoid: uncanny real animal taxidermy vibe, horror, watermarks, readable brand names, human hands in frame.",
+      "example": "{宠物}=圆眼三花猫坐姿，粉鼻尖，胸前一撮白毛，{高定造型}=驼色微型风衣+焦糖贝雷帽+细围巾，{场景}=纸质巴黎街角背景，迷你咖啡馆黑板虚化，{情绪}=高贵侧目，一只爪轻轻按住帽檐。",
+      "image": "images/2026-10-15/08.jpg",
+      "model": "Grok",
+      "genDate": "2026-10-15"
+    },
+    {
+      "id": "09",
+      "name": "玻璃蚀刻徽章设计图",
+      "photoRef": false,
+      "tagline": "一枚像博物馆藏品的玻璃蚀刻徽章，适合做成品牌印信。",
+      "scenarios": [
+        "品牌 VI 延展",
+        "徽章周边",
+        "证书贴纸",
+        "酒标/茶标灵感"
+      ],
+      "variables": [
+        {
+          "name": "{主题图腾}",
+          "desc": "徽章中心图案",
+          "example": "张开翅膀的鹤与山峦 / 锚定的帆船与星 / 蘑菇与露珠蜗牛"
+        },
+        {
+          "name": "{铭文}",
+          "desc": "环绕拉丁/英文短词",
+          "example": "AURORA STUDIO / SEAWARD HEART / SLOW GROWTH"
+        },
+        {
+          "name": "{玻璃色}",
+          "desc": "玻璃与金属边",
+          "example": "淡青绿玻璃+古银边 / 琥珀玻璃+黄铜边 / 烟灰玻璃+黑镍边"
+        },
+        {
+          "name": "{摆放}",
+          "desc": "静物台面",
+          "example": "亚麻布与干花 / 黑色石板水珠 / 橡木桌漫射窗光"
+        }
+      ],
+      "template": "Product photo of a circular etched-glass enamel pin / medallion, 1:1 square, luxury catalog style.\nCenter motif: {主题图腾}, finely etched lines frosted into glass, filled with subtle enamel color blocks.\nRim engraving: \"{铭文}\" in small elegant caps along the outer ring, perfectly legible, no other text.\nMaterials: {玻璃色}, soft specular highlights, tiny maker mark blank cartouche at bottom (no real logo).\nPresentation: resting on {摆放}, soft directional window light, gentle reflection, shallow DOF.\nFeel: heirloom craft object, quiet prestige.\nAvoid: plastic toy look, crowded ornaments, watermarks, coats of arms of real nations, celebrity portraits.",
+      "example": "{主题图腾}=展翅白鹤穿过层叠远山，脚下一点朱砂小日，{铭文}=AURORA STUDIO，{玻璃色}=淡青绿半透明玻璃+古银金属包边，{摆放}=褶皱亚麻布与两三枝干花，侧窗柔光。",
+      "image": "images/2026-10-15/09.jpg",
+      "model": "Grok",
+      "genDate": "2026-10-15"
+    },
+    {
+      "id": "10",
+      "name": "八十年代科教片静帧",
+      "photoRef": false,
+      "tagline": "复刻上世纪科普杂志/科教片里那种真诚又复古的知识插画静帧。",
+      "scenarios": [
+        "科普账号封面",
+        "播客视觉",
+        "展览导览图",
+        "怀旧海报"
+      ],
+      "variables": [
+        {
+          "name": "{知识主题}",
+          "desc": "讲解的科学主题",
+          "example": "候鸟迁徙路线剖视 / 火山剖面与岩浆房 / 珊瑚共生微观世界"
+        },
+        {
+          "name": "{主色印刷}",
+          "desc": "复古印刷色",
+          "example": "土黄+青绿+砖红 / 靛蓝+米黄+橙 / 橄榄绿+奶油+铁锈"
+        },
+        {
+          "name": "{讲解元素}",
+          "desc": "辅助图示",
+          "example": "虚线箭头与小号标注框 / 放大镜圆形插图 / 比例小人对照"
+        },
+        {
+          "name": "{介质感}",
+          "desc": "画面载体感觉",
+          "example": "16mm 胶片轻微闪烁感 / 教科书铜版纸 / 投影幻灯片边框"
+        }
+      ],
+      "template": "1980s educational science still / textbook plate, 4:3, sincere vintage teaching aesthetic.\nSubject diagram: {知识主题}, clear didactic composition, cutaway or schematic made charming not cold.\nPalette: limited {主色印刷}, soft halftone printing dots, slight misregistration, paper yellowing.\nHelper graphics: {讲解元素}, labels are short fictional captions in simple sans (keep text minimal and large enough to stay legible; no paragraphs).\nMedium: {介质感}, gentle film grain, vignette, analog warmth.\nMood: curious, earnest, library nostalgia — inviting kids and adults to look closer.\nAvoid: modern UI, neon cyber look, horror, watermarks, real institutional logos, photoreal gore.",
+      "example": "{知识主题}=横断剖视的候鸟迁徙：天空中一群剪影候鸟，地面展开简图路线经过湿地与山脉，{主色印刷}=土黄+青绿+砖红，{讲解元素}=虚线箭头、两个小号圆形放大框分别展示羽毛与湿地生态，{介质感}=教科书铜版纸轻微发黄与粗网点。",
+      "image": "images/2026-10-15/10.jpg",
+      "model": "Grok",
+      "genDate": "2026-10-15"
+    }
+  ]
+}
