@@ -391,6 +391,406 @@
       "image": "images/2026-10-15/10.jpg",
       "model": "Grok",
       "genDate": "2026-10-15"
+    },
+    {
+      "id": "11",
+      "name": "磁带公路超现实主义",
+      "photoRef": false,
+      "ratio": "1:1",
+      "tagline": "【Nano Banana 实测】让复古磁带的磁条无缝延展为通向未来都市的流光公路。",
+      "scenarios": [
+        "Nano Banana",
+        "创意广告",
+        "概念海报",
+        "音乐专辑封面"
+      ],
+      "variables": [
+        {
+          "name": "{载体}",
+          "desc": "复古实体物件",
+          "example": "黑色复古磁带 / 胶片相机胶卷 / 复古黑胶唱片"
+        },
+        {
+          "name": "{地貌环境}",
+          "desc": "放置地貌与时刻",
+          "example": "暮色蓝色时刻的荒漠沙丘 / 细雨洗过的午夜沥青地 / 寂静雪原"
+        },
+        {
+          "name": "{延伸道路}",
+          "desc": "磁条/胶卷延伸出的通道",
+          "example": "灯火通明的发光高速公路 / 悬浮高架流光轨道"
+        },
+        {
+          "name": "{远景终点}",
+          "desc": "道路通向的背景",
+          "example": "未来霓虹摩天大楼天际线 / 悬浮未来巨构空岛"
+        }
+      ],
+      "template": "A vintage {载体} resting on {地貌环境}, its ribbon transforming seamlessly into a real illuminated {延伸道路} leading toward {远景终点}, miniature moving cars driving on the ribbon, deep navy and warm amber lighting, cinematic volumetric haze, photorealistic editorial conceptual photography, strong focal point, clean negative space, ultra sharp 8k detail.",
+      "example": "{载体}=黑色复古磁带，{地貌环境}=暮色蓝色时刻的荒漠沙丘，{延伸道路}=灯火通明的发光高速公路，{远景终点}=未来霓虹摩天大楼天际线。",
+      "image": "images/2026-10-15/nano-01.jpg",
+      "model": "Nano Banana",
+      "genDate": "2026-10-15"
+    },
+    {
+      "id": "12",
+      "name": "朱华映雪・古风明艳回廊写真",
+      "photoRef": true,
+      "ratio": "9:16",
+      "tagline": "【Nano Banana 实测】落雪飞檐与朱红锦袍交映，拍出东方名门贵女的端庄与清冷。",
+      "scenarios": [
+        "Nano Banana",
+        "古风写真",
+        "国风美妆",
+        "小红书封面"
+      ],
+      "variables": [
+        {
+          "name": "{人物气质}",
+          "desc": "年龄与风骨神态",
+          "example": "25岁端庄含笑的高门贵女 / 眼神清冷孤傲的世家名媛"
+        },
+        {
+          "name": "{妆造色彩}",
+          "desc": "妆容与华服配色",
+          "example": "朱红金线交领长衫配象牙白中衣 / 黛绿点金绣袍配水光红唇"
+        },
+        {
+          "name": "{发饰发型}",
+          "desc": "盘发与首饰材质",
+          "example": "乌发低垂云髻，饰朱红宝石发簪与细金流苏步摇"
+        },
+        {
+          "name": "{雪景庭院}",
+          "desc": "建筑与植物造景",
+          "example": "落雪木制回廊、灰瓦飞檐与覆雪红梅枝"
+        }
+      ],
+      "template": "Photorealistic 9:16 portrait of a graceful East Asian noblewoman, {人物气质}, standing under a traditional wooden covered walkway with falling snow, turning back with a serene gaze. She wears {妆造色彩}, hair styled in {发饰发型}. Background features {雪景庭院}, stone floor dusted with snow. Soft cool snowy daylight blended with gentle warm lantern glow, shallow depth of field, authentic 85mm portrait photography, rich silk embroidery details, no blur.",
+      "example": "{人物气质}=25岁端庄含笑的高门贵女，{妆造色彩}=朱红金线交领长衫配象牙白中衣，{发饰发型}=乌发低垂云髻，饰朱红宝石发簪与细金流苏步摇，{雪景庭院}=落雪木制回廊、灰瓦飞檐与覆雪红梅枝。",
+      "image": "images/2026-10-15/nano-02.jpg",
+      "model": "Nano Banana",
+      "genDate": "2026-10-15"
+    },
+    {
+      "id": "13",
+      "name": "满陇桂雨・时令特调美学海报",
+      "photoRef": false,
+      "ratio": "3:4",
+      "tagline": "【Nano Banana 实测】高饱和清透分层拿铁，点缀金黄桂花，杂志级秋季饮品特写。",
+      "scenarios": [
+        "Nano Banana",
+        "餐饮主图",
+        "时令新品推广",
+        "品牌海报"
+      ],
+      "variables": [
+        {
+          "name": "{特调饮品}",
+          "desc": "饮品分层与配方",
+          "example": "深色浓缩咖啡与底层燕麦奶漩涡分层 / 抹茶云顶冷萃"
+        },
+        {
+          "name": "{顶层撒料}",
+          "desc": "奶泡与时令点缀",
+          "example": "厚绵密奶泡上洒满金黄细小桂花碎 / 烤坚果碎与焦糖淋酱"
+        },
+        {
+          "name": "{容器材质}",
+          "desc": "杯皿器具",
+          "example": "多面切角透明玻璃杯 / 磨砂质感陶瓷马克杯"
+        },
+        {
+          "name": "{背景陈列}",
+          "desc": "桌面道具与光影",
+          "example": "温润木质托盘、散落秋日枫叶与柔和晨光"
+        }
+      ],
+      "template": "High-end commercial food photography poster of an autumn special drink. Close-up of {特调饮品} served in {容器材质}, topped with {顶层撒料}. Warm cream beige background with {背景陈列}, elegant magazine layout aesthetic, crisp natural morning window light, glistening condensation and ice cubes, mouthwatering advertising quality.",
+      "example": "{特调饮品}=深色浓缩咖啡与底层燕麦奶漩涡分层，{顶层撒料}=厚绵密奶泡上洒满金黄细小桂花碎，{容器材质}=多面切角透明玻璃杯，{背景陈列}=温润木质托盘、散落秋日枫叶与柔和晨光。",
+      "image": "images/2026-10-15/nano-03.jpg",
+      "model": "Nano Banana",
+      "genDate": "2026-10-15"
+    },
+    {
+      "id": "14",
+      "name": "雨夜霓虹・赛博神社狐面",
+      "photoRef": true,
+      "ratio": "3:4",
+      "tagline": "【Nano Banana 实测】湿漉青石倒映青粉霓虹，传统和服与狐面勾勒神秘赛博东方。",
+      "scenarios": [
+        "Nano Banana",
+        "赛博国潮",
+        "壁纸",
+        "角色立绘"
+      ],
+      "variables": [
+        {
+          "name": "{传统服饰}",
+          "desc": "和服/汉服配色与纹样",
+          "example": "深蓝底银灰花卉和服配深红宽腰带 / 暗黑机能风对襟袍"
+        },
+        {
+          "name": "{面具道具}",
+          "desc": "手持东方灵物面具",
+          "example": "白底朱砂纹手作狐狸面具 / 金漆般若面具"
+        },
+        {
+          "name": "{场景地标}",
+          "desc": "神社地标建筑",
+          "example": "巨大木质鸟居与古寺飞檐 / 参道石灯笼阵列"
+        },
+        {
+          "name": "{霓虹光影}",
+          "desc": "赛博光色搭配",
+          "example": "鲜艳青色与品红霓虹灯光在雨后湿滑鹅卵石上的强烈反光"
+        }
+      ],
+      "template": "Cinematic night portrait of a young Asian woman standing in profile on rain-slicked stone pavement at a traditional shrine. She wears {传统服饰}, holding {面具道具} against her side. Behind her, {场景地标} is illuminated by {霓虹光影}, full moon overhead, vibrant reflections on wet cobblestones, fusion of cyberpunk and traditional oriental culture, moody atmospheric mist.",
+      "example": "{传统服饰}=深蓝底银灰花卉和服配深红宽腰带，{面具道具}=白底朱砂纹手作狐狸面具，{场景地标}=巨大木质鸟居与古寺飞檐，{霓虹光影}=鲜艳青色与品红霓虹灯光在雨后湿滑鹅卵石上的强烈反光。",
+      "image": "images/2026-10-15/nano-04.jpg",
+      "model": "Nano Banana",
+      "genDate": "2026-10-15"
+    },
+    {
+      "id": "15",
+      "name": "敦煌莫高・卧姿飞天神女壁画",
+      "photoRef": false,
+      "ratio": "16:9",
+      "tagline": "【Nano Banana 实测】重现莫高窟青金石与金箔矿彩，端庄华贵的神女卧榻与飞天乐伎。",
+      "scenarios": [
+        "Nano Banana",
+        "文化文创",
+        "国风插画",
+        "艺术收藏"
+      ],
+      "variables": [
+        {
+          "name": "{神女姿态}",
+          "desc": "神女体态与神情",
+          "example": "侧卧于精致蓝金丝绸坐榻上，姿态端庄安详"
+        },
+        {
+          "name": "{服饰冠冕}",
+          "desc": "华美衣饰细节",
+          "example": "轻薄半透明象牙白丝绸长袍，佩戴繁复金冠与璎珞项圈"
+        },
+        {
+          "name": "{配衬灵物}",
+          "desc": "守护灵兽与植物",
+          "example": "卧伏于盛开粉莲旁的一头纯白神鹿 / 悬浮灵动玄鸟"
+        },
+        {
+          "name": "{背景壁画元素}",
+          "desc": "飞天与矿物色彩",
+          "example": "青金石蓝夜空、金色祥云、弹奏琵琶的飞天乐伎与高悬金月"
+        }
+      ],
+      "template": "Magnificent Dunhuang mural masterpiece digital painting. Central subject is an ethereal goddess, {神女姿态}, wearing {服饰冠冕}. In the foreground, {配衬灵物}. Background is a rich tapestry of traditional Buddhist cave art: {背景壁画元素}. Authentic mineral pigment textures, gold foil leaf inlays, flowing red and teal silk ribbons, sublime classical fine art composition.",
+      "example": "{神女姿态}=侧卧于精致蓝金丝绸坐榻上，姿态端庄安详，{服饰冠冕}=轻薄半透明象牙白丝绸长袍，佩戴繁复金冠与璎珞项圈，{配衬灵物}=卧伏于盛开粉莲旁的一头纯白神鹿，{背景壁画元素}=青金石蓝夜空、金色祥云、弹奏琵琶的飞天乐伎与高悬金月。",
+      "image": "images/2026-10-15/nano-05.jpg",
+      "model": "Nano Banana",
+      "genDate": "2026-10-15"
+    },
+    {
+      "id": "16",
+      "name": "异星暗夜・电影级生存写实",
+      "photoRef": true,
+      "ratio": "9:16",
+      "tagline": "【Nano Banana 实测】IMAX 级冷峻写实，怒涛拍岸的异星礁石与深空迷雾巨兽。",
+      "scenarios": [
+        "Nano Banana",
+        "电影概念图",
+        "游戏过场",
+        "大片海报"
+      ],
+      "variables": [
+        {
+          "name": "{角色动作}",
+          "desc": "攀爬与受困动态",
+          "example": "在湍急暗礁浅水中奋力向前攀爬，双手扣紧湿滑黑石"
+        },
+        {
+          "name": "{衣着细节}",
+          "desc": "机能装备受损状态",
+          "example": "湿透的深灰机能背心与紧身短裤，湿发紧贴脸颊"
+        },
+        {
+          "name": "{恶劣环境}",
+          "desc": "异星海岸特征",
+          "example": "怒涛拍打的黑色锯齿状礁石海滩，翻滚夜雾与银白浪花"
+        },
+        {
+          "name": "{远景威胁}",
+          "desc": "迷雾中的神秘巨兽",
+          "example": "远方崖壁迷雾中若隐若现的巨大骨骼感异形巨兽，亮着幽蓝眼芒"
+        }
+      ],
+      "template": "Cinematic IMAX-level dark fantasy survival film still, 9:16 vertical. A determined survivor, {角色动作}, wearing {衣着细节}, expression showing raw exhaustion and alert survival instinct. Set on {恶劣环境} under a cold pale moon. Looming in the misty distance: {远景威胁}. Steel-blue and charcoal desaturated colour grading, realistic wet surface water physics, crashing silver waves, high-tension cinematic lighting.",
+      "example": "{角色动作}=在湍急暗礁浅水中奋力向前攀爬，双手扣紧湿滑黑石，{衣着细节}=湿透的深灰机能背心与紧身短裤，湿发紧贴脸颊，{恶劣环境}=怒涛拍打的黑色锯齿状礁石海滩，翻滚夜雾与银白浪花，{远景威胁}=远方崖壁迷雾中若隐若现的巨大骨骼感异形巨兽，亮着幽蓝眼芒。",
+      "image": "images/2026-10-15/nano-06.jpg",
+      "model": "Nano Banana",
+      "genDate": "2026-10-15"
+    },
+    {
+      "id": "17",
+      "name": "金箔大漆・东方风物浮世纪实",
+      "photoRef": false,
+      "ratio": "4:3",
+      "tagline": "【Nano Banana 实测】复刻 1930 年代传统大漆与贴金工艺，温暖灯火与人文乡愁叙事。",
+      "scenarios": [
+        "Nano Banana",
+        "非遗艺术",
+        "东方美学",
+        "书籍插图"
+      ],
+      "variables": [
+        {
+          "name": "{叙事核心}",
+          "desc": "人群聚拢故事",
+          "example": "农家乡民与长者在暖光纸灯笼下围读一封远方来信"
+        },
+        {
+          "name": "{服饰头饰}",
+          "desc": "传统民族服饰",
+          "example": "质朴棕褐与靛蓝传统奥黛长衫，戴花布头巾或斗笠"
+        },
+        {
+          "name": "{前庭风物}",
+          "desc": "乡土植物与建筑",
+          "example": "雕花砖石村门、碧绿芭蕉叶与粉色荷塘水面"
+        },
+        {
+          "name": "{漆艺色调}",
+          "desc": "大漆质感与光感",
+          "example": "天然大漆温润光泽，金箔镶嵌纹理，红褐底漆与深邃暖黑对比"
+        }
+      ],
+      "template": "A traditional 1930s East Asian lacquer painting (sơn mài) titled Letter from the City. Scene depicts {叙事核心}, all wearing {服饰头饰}. Setting features {前庭风物}, distant town horizon under a warm glowing evening sun. Rich polished natural lacquer texture with crackled gold leaf inlays, deep mahogany browns, cinnabar reds, and lustrous polished black tones, timeless cultural heritage artwork.",
+      "example": "{叙事核心}=农家乡民与长者在暖光纸灯笼下围读一封远方来信，{服饰头饰}=质朴棕褐与靛蓝传统奥黛长衫，戴花布头巾或斗笠，{前庭风物}=雕花砖石村门、碧绿芭蕉叶与粉色荷塘水面，{漆艺色调}=天然大漆温润光泽，金箔镶嵌纹理，红褐底漆与深邃暖黑对比。",
+      "image": "images/2026-10-15/nano-07.jpg",
+      "model": "Nano Banana",
+      "genDate": "2026-10-15"
+    },
+    {
+      "id": "18",
+      "name": "乐章卷轴・巴洛克历史浮想",
+      "photoRef": false,
+      "ratio": "16:9",
+      "tagline": "【Nano Banana 实测】羊皮纸五线谱巨幅卷轴化作跨江长桥，微缩音乐家步入金色名城。",
+      "scenarios": [
+        "Nano Banana",
+        "古典音乐宣传",
+        "文化概念图",
+        "艺术展海报"
+      ],
+      "variables": [
+        {
+          "name": "{历史人物}",
+          "desc": "音乐家/学者",
+          "example": "身着18世纪黑燕尾服、头戴卷曲白假发的巴赫"
+        },
+        {
+          "name": "{城市地标}",
+          "desc": "名城巴洛克建筑群",
+          "example": "德累斯顿易北河畔的巴洛克穹顶大教堂、石桥与古城天际线"
+        },
+        {
+          "name": "{卷轴构图}",
+          "desc": "羊皮纸乐谱延展形态",
+          "example": "泛黄复古羊皮纸卷轴从前景铺展为凌空飞架的五线谱天桥"
+        },
+        {
+          "name": "{光影时刻}",
+          "desc": "宏大黄金时刻",
+          "example": "温暖辉煌的金色夕阳斜照，云层与河面波光粼粼"
+        }
+      ],
+      "template": "Cinematic 3D historical concept illustration, 16:9 panoramic view. Subject is {历史人物} standing on {卷轴构图}, overlooking {城市地标}. Dramatic {光影时刻}, antique cursive musical notation and staves written across the parchment, surreal scale contrast between miniature composer and monumental baroque architecture, ultra high texture fidelity, museum exhibition quality.",
+      "example": "{历史人物}=身着18世纪黑燕尾服、头戴卷曲白假发的巴赫，{卷轴构图}=泛黄复古羊皮纸卷轴从前景铺展为凌空飞架的五线谱天桥，{城市地标}=德累斯顿易北河畔的巴洛克穹顶大教堂、石桥与古城天际线，{光影时刻}=温暖辉煌的金色夕阳斜照，云层与河面波光粼粼。",
+      "image": "images/2026-10-15/nano-08.jpg",
+      "model": "Nano Banana",
+      "genDate": "2026-10-15"
+    },
+    {
+      "id": "19",
+      "name": "黑白热血・动态日漫分镜跨页",
+      "photoRef": false,
+      "ratio": "16:9",
+      "tagline": "【Nano Banana 实测】纯粹黑白墨线与网点纸质感，张力拉满的少年漫三主角日常跨页。",
+      "scenarios": [
+        "Nano Banana",
+        "漫画原稿",
+        "角色表情包",
+        "周边二创"
+      ],
+      "variables": [
+        {
+          "name": "{三人组合}",
+          "desc": "角色人设反差",
+          "example": "元气热血眼镜娘、呆萌炸毛兽耳少女、慵懒帅气卫衣少女"
+        },
+        {
+          "name": "{互动动态}",
+          "desc": "肢体冲突与情绪",
+          "example": "一人握拳高喊，中间双手推开显露慌乱，右侧插兜狡黠单眼眨眼"
+        },
+        {
+          "name": "{服饰搭配}",
+          "desc": "现代混搭着装",
+          "example": "宽松开衫内搭T恤、条纹短裙与宽松工装卫衣"
+        },
+        {
+          "name": "{网点特效}",
+          "desc": "漫画速度线与拟声词",
+          "example": "经典点阵网点阴影、爆发式放射速度线与动感黑体拟声气泡"
+        }
+      ],
+      "template": "Dynamic black and white manga splash page illustration. Three expressive anime heroines standing side-by-side: {三人组合}, captured in {互动动态}, dressed in {服饰搭配}. Crisp dip-pen black ink linework, authentic screentone dot shading, {网点特效}, high-energy Japanese shonen/seinen manga art style, stark white background, no color.",
+      "example": "{三人组合}=元气热血眼镜娘、呆萌炸毛兽耳少女、慵懒帅气卫衣少女，{互动动态}=一人握拳高喊，中间双手推开显露慌乱，右侧插兜狡黠单眼眨眼，{服饰搭配}=宽松开衫内搭T恤、条纹短裙与宽松工装卫衣，{网点特效}=经典点阵网点阴影、爆发式放射速度线与动感黑体拟声气泡。",
+      "image": "images/2026-10-15/nano-09.jpg",
+      "model": "Nano Banana",
+      "genDate": "2026-10-15"
+    },
+    {
+      "id": "20",
+      "name": "战壕圣光・柴油朋克暗黑奇幻",
+      "photoRef": false,
+      "ratio": "16:9",
+      "tagline": "【Nano Banana 实测】血色日食下泥泞战壕与燃烧哥特大教堂，冷峻窒息的重装战役。",
+      "scenarios": [
+        "Nano Banana",
+        "暗黑奇幻",
+        "游戏概念图",
+        "桌面战棋背景"
+      ],
+      "variables": [
+        {
+          "name": "{军团装束}",
+          "desc": "战壕战士重装防具",
+          "example": "泥泞风衣外覆钢甲，佩戴布罗迪钢盔防毒面具与红十字白罩袍"
+        },
+        {
+          "name": "{战壕阵地}",
+          "desc": "前沿阵地环境",
+          "example": "泥泞壕沟、生锈铁丝网、沙袋工事与散落的弹壳"
+        },
+        {
+          "name": "{天空异象}",
+          "desc": "末日天象奇观",
+          "example": "血红色天空正中悬挂带王冠轮廓的黑曜石日全食"
+        },
+        {
+          "name": "{背景战火}",
+          "desc": "远景残垣与硝烟",
+          "example": "远方在硝烟烈火中燃烧崩塌的宏伟哥特式大教堂"
+        }
+      ],
+      "template": "Grimdark dieselpunk fantasy trench warfare epic scene, 16:9 panoramic cinematic still. Armored soldiers wearing {军团装束} holding rifles in {战壕阵地}. Looming overhead is {天空异象}, illuminating {背景战火}. Volumetric smoke, embers drifting in cold rain, gritty photorealistic textures, intense chiaroscuro contrast, haunting dark fantasy battlefield atmosphere.",
+      "example": "{军团装束}=泥泞风衣外覆钢甲，佩戴布罗迪钢盔防毒面具与红十字白罩袍，{战壕阵地}=泥泞壕沟、生锈铁丝网、沙袋工事与散落的弹壳，{天空异象}=血红色天空正中悬挂带王冠轮廓的黑曜石日全食，{背景战火}=远方在硝烟烈火中燃烧崩塌的宏伟哥特式大教堂。",
+      "image": "images/2026-10-15/nano-10.jpg",
+      "model": "Nano Banana",
+      "genDate": "2026-10-15"
     }
   ]
 }

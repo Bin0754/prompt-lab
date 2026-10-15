@@ -49,5 +49,5 @@ $('#grid').onclick=ev=>{const d=ev.target.closest('[data-dl]');if(d){ev.stopProp
 $('#dlg').addEventListener('click',ev=>{if(ev.target.id==='dlg')$('#dlg').close()});
 $('#dlg').addEventListener('close',()=>{document.body.classList.remove('lock');history.replaceState(null,'',location.pathname)});
 (async()=>{const idx=await (await fetch('data/index.json',{cache:'no-cache'})).json();const dates=[...idx.dates].sort().reverse();
-  $('#date').innerHTML=dates.map(d=>`<option>${d}</option>`).join('');const h=location.hash.slice(1).split('/')[0];const d=dates.includes(h)?h:(dates.includes('2026-10-13')?'2026-10-13':dates[0]);
+  $('#date').innerHTML=dates.map(d=>`<option>${d}</option>`).join('');const h=location.hash.slice(1).split('/')[0];const d=dates.includes(h)?h:dates[0];
   $('#date').value=d;$('#date').onchange=()=>{history.replaceState(null,'',location.pathname);load($('#date').value)};load(d)})();
